@@ -1,0 +1,65 @@
+[
+	{
+		ingredientPattern: "GD_,EBE,C_C",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-chain-steel"
+			},
+			"C": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 1
+			},
+			"D": { type: "item", code: "fa-templar-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 1
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar light legs",
+		output: { type: "item", code: "fa-templar-legs-light-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "GD_,EBE,C_C",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-chain-meteoriciron"
+			},
+			"C": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 1
+			},
+			"D": { type: "item", code: "fa-templar-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 1
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar light legs",
+		output: { type: "item", code: "fa-templar-legs-light-meteoriciron-plain"
+		}
+	},
+	{
+		ingredientPattern: "GD_,EBE,C_C",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-chain-iron"
+			},
+			"C": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 1
+			},
+			"D": { type: "item", code: "fa-templar-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 1
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar light legs",
+		output: { type: "item", code: "fa-templar-legs-light-iron-plain"
+		}
+	},
+]

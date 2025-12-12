@@ -1,0 +1,344 @@
+[
+	{
+		ingredientPattern: "_B_,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 4
+			},
+			"D": { type: "item", code: "game:metalplate-steel"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-steel"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-templar-schematic"
+			},
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar greathelm plain",
+		output: { type: "item", code: "fa-templar-head-greathelm-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "_B_,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 4
+			},
+			"D": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-meteoriciron"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-templar-schematic"
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar greathelm plain",
+		output: { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain"
+		}
+	},
+	{
+		ingredientPattern: "_B_,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 4
+			},
+			"D": { type: "item", code: "game:metalplate-iron"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-iron"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-templar-schematic"
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar greathelm plain",
+		output: { type: "item", code: "fa-templar-head-greathelm-iron-plain"
+		}
+	},
+	{
+		ingredientPattern: "ACA,BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-steel-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwinged",
+		output: { type: "item", code: "fa-templar-head-greathelmwinged-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ACA,BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwinged",
+		output: { type: "item", code: "fa-templar-head-greathelmwinged-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ACA,BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-iron-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwinged",
+		output: { type: "item", code: "fa-templar-head-greathelmwinged-iron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 3
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-steel-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwreath",
+		output: { type: "item", code: "fa-templar-head-greathelmwreath-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 3
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwreath",
+		output: { type: "item", code: "fa-templar-head-greathelmwreath-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 3
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-iron-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwreath",
+		output: { type: "item", code: "fa-templar-head-greathelmwreath-iron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-head-greathelm*-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel greathelm deplume",
+		output: { type: "item", code: "fa-templar-head-greathelm-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-head-greathelm*-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoriciron greathelm deplume",
+		output: { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-head-greathelm*-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar iron greathelm deplume",
+		output: { type: "item", code: "fa-templar-head-greathelm-iron-plain"
+		}
+	},
+]

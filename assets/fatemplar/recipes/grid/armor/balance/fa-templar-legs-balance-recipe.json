@@ -1,0 +1,71 @@
+[
+	{
+		ingredientPattern: "GD_,EBE,CFC",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-scale-steel"
+			},
+			"C": { type: "item", code: "game:metalplate-steel", quantity: 1
+			},
+			"D": { type: "item", code: "fa-templar-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 1
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar balance legs",
+		output: { type: "item", code: "fa-templar-legs-balance-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "GD_,EBE,CFC",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-scale-meteoriciron"
+			},
+			"C": { type: "item", code: "game:metalplate-meteoriciron", quantity: 1
+			},
+			"D": { type: "item", code: "fa-templar-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 1
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar balance legs",
+		output: { type: "item", code: "fa-templar-legs-balance-meteoriciron-plain"
+		}
+	},
+	{
+		ingredientPattern: "GD_,EBE,CFC",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-scale-iron"
+			},
+			"C": { type: "item", code: "game:metalplate-iron", quantity: 1
+			},
+			"D": { type: "item", code: "fa-templar-schematic"
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 1
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar balance legs",
+		output: { type: "item", code: "fa-templar-legs-balance-iron-plain"
+		}
+	},
+]

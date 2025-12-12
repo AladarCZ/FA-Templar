@@ -1,0 +1,188 @@
+{
+	"code": "fa-templar-head",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{ "code": "style",  "states": ["greathelmwinged", "greathelm", "greathelmwreath", "pothelmheavy", "pothelmlight"] },
+		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+	],
+	"allowedVariants": [
+		"fa-templar-head-greathelmwinged-*",
+		"fa-templar-head-greathelmwreath-*",
+		"fa-templar-head-greathelm-*-plain",
+		"fa-templar-head-pothelmheavy-*",
+		"fa-templar-head-pothelmlight-*-plain"
+	],
+	"skipVariants": [
+		"fa-templar-head-greathelmwinged-*-none",
+		"fa-templar-head-greathelmwreath-*-none"
+	],
+	"shapeByType": 
+	{
+		"fa-templar-head-greathelm-*-plain": { "base": "entity/armor/templar/templar_greathelm_none" },
+		"fa-templar-head-greathelmwinged-*": { "base": "entity/armor/templar/templar_greathelm_winged" },
+		"fa-templar-head-greathelmwreath-*": { "base": "entity/armor/templar/templar_greathelm_wreath" },
+		"fa-templar-head-pothelmheavy-*": { "base": "entity/armor/templar/templar_pothelm_heavy" },
+		"fa-templar-head-pothelmlight-*-plain": { "base": "entity/armor/templar/templar_pothelm_light" }
+	},
+	"texturesByType": {
+		"fa-templar-head-greathelmwinged-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" }
+				},
+		"fa-templar-head-greathelmwreath-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" }
+				},
+		"fa-templar-head-greathelm-*-plain": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" }
+				},
+		"fa-templar-head-pothelmheavy-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" }
+				},
+		"fa-templar-head-pothelmlight-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" }
+				}
+	},
+	"storageFlags": 128,
+	"maxstacksize": 4,
+	"attributes": {
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"*": "armorhead",
+		},
+		"disableElementsByType": {
+			"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
+		},
+		"defaultProtLoss": {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		"protectionModifiersByType": {
+			"*-pothelmlight-steel-*": {
+				relativeProtection: 0.86,
+				flatDamageReduction: 1.4,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},			
+			"*-pothelmheavy-steel-*": {
+				relativeProtection: 0.90,
+				flatDamageReduction: 1.6,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},			
+			"*-greathelm*-steel-*": {
+				relativeProtection: 0.97,
+				flatDamageReduction: 1.8,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-pothelmlight-meteoriciron-*": {
+				relativeProtection: 0.845,
+				flatDamageReduction: 1.35,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-pothelmheavy-meteoriciron-*": {
+				relativeProtection: 0.885,
+				flatDamageReduction: 1.55,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-greathelm*-meteoriciron-*": {
+				relativeProtection: 0.962,
+				flatDamageReduction: 1.72,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-pothelmlight-iron-*": {
+				relativeProtection: 0.84,
+				flatDamageReduction: 1.3,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-pothelmheavy-iron-*": {
+				relativeProtection: 0.88,
+				flatDamageReduction: 1.5,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-greathelm*-iron-*": {
+				relativeProtection: 0.96,
+				flatDamageReduction: 1.7,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+		},
+		"statModifiersByType": {
+			"*-pothelmlight-*": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.06,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.05,
+				hungerrate: 0.05
+			},
+			"*-pothelmheavy-*": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.2,
+				walkSpeed: -0.09,
+				healingeffectivness: -0.05,
+				hungerrate: 0.05
+			},
+			"*-greathelm*-*": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.2,
+				walkSpeed: -0.16,
+				healingeffectivness: -0.1,
+				hungerrate: 0.1
+			},
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorytemplar": ["*"] },
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"*": 6000,
+	},
+	"fpHandTransformByType": {
+		"*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+	},
+	"groundTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+	},
+}

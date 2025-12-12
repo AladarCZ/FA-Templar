@@ -1,0 +1,107 @@
+[
+	{
+		ingredientPattern: "ABA,DED,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "fa-templar-schematic"
+			},
+			"D": { type: "item", code: "game:metalnailsandstrips-steel"
+			},
+			"E": { type: "item", code: "game:armor-body-chain-steel"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar steel light body",
+		output: { type: "item", code: "fa-templar-body-light-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,DED,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "fa-templar-schematic"
+			},
+			"D": { type: "item", code: "game:metalnailsandstrips-meteoriciron"
+			},
+			"E": { type: "item", code: "game:armor-body-chain-meteoriciron"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar steel light body",
+		output: { type: "item", code: "fa-templar-body-light-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ABA,DED,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"B": { type: "item", code: "fa-templar-schematic"
+			},
+			"D": { type: "item", code: "game:metalnailsandstrips-iron"
+			},
+			"E": { type: "item", code: "game:armor-body-chain-iron"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar steel light body",
+		output: { type: "item", code: "fa-templar-body-light-iron-{color}"
+		}
+	},
+]

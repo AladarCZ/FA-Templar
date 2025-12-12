@@ -1,0 +1,172 @@
+{
+	"code": "fa-templar-legs",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{ "code": "look",  "states": ["light", "balance", "heavy"]},
+		{ "code": "metallegs",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+	],
+	"allowedVariants": [
+		"fa-templar-legs-heavy-*",
+		"fa-templar-legs-balance-*-plain",
+		"fa-templar-legs-light-*-plain"
+	],
+	"shapeByType": 
+	{
+		"fa-templar-legs-light-*": { "base": "entity/armor/templar/templar_light_legs" },
+		"fa-templar-legs-balance-*": { "base": "entity/armor/templar/templar_balance_legs" },
+		"fa-templar-legs-heavy-*": { "base": "entity/armor/templar/templar_heavy_legs" }
+	},
+	"texturesByType": {
+		"fa-templar-legs-*-steel-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarlegs": { "base": "armor/entity/templar_{look}_{metallegs}" },
+			"line": { "base": "block/lines/line{line}" }
+				},
+		"fa-templar-legs-*-meteoriciron-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarlegs": { "base": "armor/entity/templar_{look}_{metallegs}" },
+			"line": { "base": "block/lines/line{line}" }
+				},
+		"fa-templar-legs-heavy-iron-none": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarlegs": { "base": "armor/entity/templar_{look}_{metallegs}" },
+			"line": { "base": "block/lines/line{line}" }
+				},
+		"fa-templar-legs-*-iron-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"templarlegs": { "base": "armor/entity/templar_{look}_{metallegs}" },
+			"line": { "base": "game:block/cloth/linen/{line}" }
+				}
+	},
+	"storageFlags": 128,
+	"maxstacksize": 4,
+	"attributes": {
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"*": "armorlegs",
+		},
+		"defaultProtLoss": {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		"protectionModifiersByType": {
+			"*-light-steel-*": {
+				relativeProtection: 0.86,
+				flatDamageReduction: 1.4,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},			
+			"*-balance-steel-*": {
+				relativeProtection: 0.90,
+				flatDamageReduction: 1.6,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},			
+			"*-heavy-steel-*": {
+				relativeProtection: 0.97,
+				flatDamageReduction: 1.8,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-light-meteoriciron-*": {
+				relativeProtection: 0.845,
+				flatDamageReduction: 1.35,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-balance-meteoriciron-*": {
+				relativeProtection: 0.885,
+				flatDamageReduction: 1.55,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-heavy-meteoriciron-*": {
+				relativeProtection: 0.962,
+				flatDamageReduction: 1.72,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-light-iron-*": {
+				relativeProtection: 0.84,
+				flatDamageReduction: 1.3,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-balance-iron-*": {
+				relativeProtection: 0.88,
+				flatDamageReduction: 1.5,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-heavy-iron-*": {
+				relativeProtection: 0.96,
+				flatDamageReduction: 1.7,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+		},
+		"statModifiersByType": {
+			"*-light-*": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.06,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.05,
+				hungerrate: 0.05
+			},
+			"*-balance-*": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.2,
+				walkSpeed: -0.09,
+				healingeffectivness: -0.05,
+				hungerrate: 0.05
+			},
+			"*-heavy-*": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.2,
+				walkSpeed: -0.16,
+				healingeffectivness: -0.1,
+				hungerrate: 0.1
+			},
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorytemplar": ["*"] },
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"*": 6000,
+	},
+	"fpHandTransformByType": {
+		"*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -0.7, y: -0.6, z: -0.4 },
+			rotation: { x: 95, y: -20, z: -91 },
+			origin: { x: 0.5, y: 0.7, z: 0.5 },
+			scale: 0.74
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 },
+			scale: 1.25
+		},
+	},
+	"groundTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		},
+	},
+}
