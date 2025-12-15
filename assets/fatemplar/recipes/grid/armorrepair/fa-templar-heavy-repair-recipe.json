@@ -473,4 +473,34 @@
 		output: { type: "item", code: "fa-templar-legs-heavy-iron-{color}"
 		}
 	},
+		{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-templar-legs-heavy-*-none",  
+						name: "metal", allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-*",
+						name: "metal", allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "Templar Legs Heavy Repair",
+		output: { type: "item", code: "fa-templar-legs-heavy-{metal}-none"
+		}
+	},
 ]
