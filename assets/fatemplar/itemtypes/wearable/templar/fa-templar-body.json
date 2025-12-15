@@ -109,6 +109,11 @@
 		"clothescategoryByType": {
 			"*": "armorbody",
 		},
+		"footStepSoundByType": {
+			"fa-templar-body-light-**": "game:wearable/chain*",
+			"fa-templar-body-balance-**": "game:wearable/scale*",	
+			"fa-templar-body-heavy-**": "game:wearable/plate*",
+		},
 		"defaultProtLoss": {
 			perTierRelativeProtectionLoss: [
 				0.03,
