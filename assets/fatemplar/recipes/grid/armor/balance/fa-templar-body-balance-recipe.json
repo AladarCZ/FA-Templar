@@ -19,7 +19,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-templar-schematic"
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-steel"
 			},
@@ -56,7 +56,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-templar-schematic"
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-meteoriciron"
 			},
@@ -93,7 +93,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-templar-schematic"
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-iron"
 			},

@@ -7,7 +7,7 @@
 			},
 			"C": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 1
 			},
-			"D": { type: "item", code: "fa-templar-schematic"
+			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 1
 			},
@@ -28,7 +28,7 @@
 			},
 			"C": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 1
 			},
-			"D": { type: "item", code: "fa-templar-schematic"
+			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 1
 			},
@@ -49,7 +49,7 @@
 			},
 			"C": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 1
 			},
-			"D": { type: "item", code: "fa-templar-schematic"
+			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 1
 			},

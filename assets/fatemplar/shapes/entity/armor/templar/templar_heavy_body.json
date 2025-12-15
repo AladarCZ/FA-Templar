@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "D:/Hry/Vintagestory120/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
 		"collapsedPaths": "Root/ArmorLowerArmL,Root/ArmorUpperArmR/ArmorPauldronR(F)2,Root/ArmorUpperArmR/ArmorPauldronRRef2,Root/ArmorUpperUpperTorso/PaintUpperUpperTorso,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronLB,Root/ArmorUpperArmR/ArmorPauldronR(F)/ArmorPauldronTopR,Root/ArmorUpperArmL/seal-main,Root/PaintUpperTorso,Root/ArmorUpperArmR/ArmorPauldronRRef/ArmorPauldronRB,Root/ArmorUpperArmL/seal-main/seal-string1,Root/ArmorUpperArmL/ArmorPauldronR(F)2,Root/ArmorUpperArmL/seal-main/seal-string2,Root/ArmorUpperArmR2,Root/ArmorUpperArmL/ArmorPauldronRRef2,Root/ArmorUpperArmR/ArmorPauldronR(F),Root/origin/sheet/scroll-bigger/seal-main,Root/ArmorLowerArmR,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronTopL,Root/PaintLowerTorso,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronLL,Root/ArmorUpperArmR/ArmorPauldronRRef",
 		"allAngles": true,
 		"entityTextureMode": true
@@ -10,8 +10,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"templarbody": "armor/entity/templar_{type}_{metalbody}",
-		"textile": "block/textiles/textile{textile}"
+		"templarbody": "armor/entity/templar_heavy_steel",
+		"textile": "block/textiles/textilered",
+		"schematic-templar": "utility/schematic-templar"
 	},
 	"elements": [
 		{

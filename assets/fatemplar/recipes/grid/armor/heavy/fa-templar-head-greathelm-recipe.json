@@ -11,7 +11,7 @@
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
-			"H": { type: "item", code: "fa-templar-schematic"
+			"H": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
 			}
@@ -34,7 +34,7 @@
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
-			"H": { type: "item", code: "fa-templar-schematic"
+			"H": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
 			}
@@ -57,7 +57,7 @@
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
-			"H": { type: "item", code: "fa-templar-schematic"
+			"H": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
 			}

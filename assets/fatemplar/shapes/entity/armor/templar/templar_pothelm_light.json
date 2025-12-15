@@ -10,8 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"templarbody": "armor/entity/templar_{type}_{metalbody}",
-		"textile": "block/textiles/textile{textile}"
+			"templarhead": "armor/entity/templar_helmets_steel",
+			"plume": "block/plume/plumered"
 	},
 	"elements": [
 		{

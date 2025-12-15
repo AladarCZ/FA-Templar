@@ -3,7 +3,7 @@
 		ingredientPattern: "FBF,DED,IGI",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-schematic"
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-steel", quantity: 3
 			},
@@ -26,7 +26,7 @@
 		ingredientPattern: "FBF,DED,IGI",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-schematic"
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-meteoriciron", quantity: 3
 			},
@@ -49,7 +49,7 @@
 		ingredientPattern: "FBF,DED,IGI",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-schematic"
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-iron", quantity: 3
 			},

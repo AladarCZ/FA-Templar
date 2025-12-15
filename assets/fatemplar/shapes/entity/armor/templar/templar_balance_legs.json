@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"templarlegs": "armor/entity/templar_{look}_{metallegs}",
-			"line": "block/lines/line{line}"
+			"templarlegs": "armor/entity/templar_balance_steel",
+			"line": "block/lines/linered"
 	},
 	"elements": [
 		{

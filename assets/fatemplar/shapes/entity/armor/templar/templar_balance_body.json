@@ -10,8 +10,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"templarbody": "armor/entity/templar_{type}_{metalbody}",
-		"textile": "block/textiles/textile{textile}"
+		"templarbody": "armor/entity/templar_balance_steel",
+		"textile": "block/textiles/textilered",
+		"plain": "game:block/leather/plain"
 	},
 	"elements": [
 		{
