@@ -30,8 +30,8 @@
               "walkspeed": -0.13,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.02,
-              "hungerrate": 0.02
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-legs-heavy-*iron-*": {
@@ -52,8 +52,8 @@
               "walkspeed": -0.13,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.02,
-              "hungerrate": 0.02
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-legs-balance-steel-*": {
@@ -75,8 +75,8 @@
               "walkspeed": -0.07,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-legs-balance-*iron-*": {
@@ -98,8 +98,8 @@
               "walkspeed": -0.07,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-legs-light-steel-*": {
@@ -112,13 +112,13 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 3,
-              "SlashingAttack": 6,
+              "PiercingAttack": 4,
+              "SlashingAttack": 7,
               "BluntAttack": 4
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.07,
+              "walkspeed": -0.03,
               "manipulationSpeed": 0,
               "steadyAim": 0,
               "healingeffectivness": -0.03,
@@ -135,13 +135,13 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 2,
-              "SlashingAttack": 5,
+              "PiercingAttack": 3,
+              "SlashingAttack": 6,
               "BluntAttack": 3
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.07,
+              "walkspeed": -0.03,
               "manipulationSpeed": 0,
               "steadyAim": 0,
               "healingeffectivness": -0.03,

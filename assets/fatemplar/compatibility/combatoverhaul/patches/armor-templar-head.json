@@ -31,8 +31,8 @@
               "walkspeed": 0,
               "manipulationSpeed": 0,
               "steadyAim": -0.15,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-head-greathelm*-*iron-*": {
@@ -54,8 +54,8 @@
               "walkspeed": 0,
               "manipulationSpeed": 0,
               "steadyAim": -0.15,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-head-pothelmheavy-steel-*": {
@@ -78,8 +78,8 @@
               "walkspeed": 0,
               "manipulationSpeed": 0,
               "steadyAim": -0.05,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-head-pothelmheavy-*iron-*": {
@@ -102,8 +102,8 @@
               "walkspeed": 0,
               "manipulationSpeed": 0,
               "steadyAim": -0.05,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-head-pothelmlight-steel-*": {
@@ -117,15 +117,15 @@
               "Face"
             ],
             "Resists": {
-              "PiercingAttack": 3,
-              "SlashingAttack": 6,
+              "PiercingAttack": 4,
+              "SlashingAttack": 7,
               "BluntAttack": 4
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": 0,
+              "walkspeed": -0,
               "manipulationSpeed": 0,
-              "steadyAim": -0.05,
+              "steadyAim": -0.02,
               "healingeffectivness": -0.03,
               "hungerrate": 0.03
             }
@@ -141,15 +141,15 @@
               "Face"
             ],
             "Resists": {
-              "PiercingAttack": 2,
-              "SlashingAttack": 5,
+              "PiercingAttack": 3,
+              "SlashingAttack": 6,
               "BluntAttack": 3
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": 0,
+              "walkspeed": -0,
               "manipulationSpeed": 0,
-              "steadyAim": -0.05,
+              "steadyAim": -0.02,
               "healingeffectivness": -0.03,
               "hungerrate": 0.03
             }
