@@ -1,41 +1,58 @@
 [
 	{
-		ingredientPattern: "ABA,DED,_G_",
+		ingredientPattern: "_B_,DED,G_I",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
 			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
-			"D": { type: "item", code: "game:metalnailsandstrips-steel"
+			"D": { type: "item", code: "game:metalplate-steel"
 			},
 			"E": { type: "item", code: "game:armor-body-chain-steel"
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 6
+			}
 		},
 		width: 3,
 		height: 3,
 		name: "templar steel light body",
-		output: { type: "item", code: "fa-templar-body-light-steel-{color}"
+		output: { type: "item", code: "fa-templar-body-light-steel-none"
 		}
 	},
 	{
-		ingredientPattern: "ABA,DED,_G_",
+		ingredientPattern: "_B_,DED,G_I",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			},
+			"D": { type: "item", code: "game:metalplate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"E": { type: "item", code: "game:armor-body-chain-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 6
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar steel light body",
+		output: { type: "item", code: "fa-templar-body-light-{metal}-none"
+		}
+	},
+	{
+		ingredientPattern: "A_A,_E_,_G_",
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", code: "game:cloth-*", name: "color", 
@@ -54,54 +71,107 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"E": { type: "item", code: "fa-templar-body-light-*-none", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"D": { type: "item", code: "game:metalnailsandstrips-meteoriciron"
-			},
-			"E": { type: "item", code: "game:armor-body-chain-meteoriciron"
-			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
 		},
 		width: 3,
 		height: 3,
-		name: "templar steel light body",
-		output: { type: "item", code: "fa-templar-body-light-meteoriciron-{color}"
+		name: "templar meteoriciron light body",
+		output: { type: "item", code: "fa-templar-body-light-{metal}-{color}"
 		}
 	},
 	{
-		ingredientPattern: "ABA,DED,_G_",
+		ingredientPattern: "AB,_G",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
+			"A": { type: "item", 
+					code: "game:armor-body-hide-bear-*",
+					name: "bear",
 					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
 					"black",
-					"white"
-				], quantity: 2
+					"brown",
+					"polar"
+				]
 			},
-			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"B": { type: "item", code: "fa-templar-body-light-*-none", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"D": { type: "item", code: "game:metalnailsandstrips-iron"
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "templar plate body",
+		output: { type: "item", code: "fa-templar-body-light-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-light-steel-*"
 			},
-			"E": { type: "item", code: "game:armor-body-chain-iron"
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-light-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-light-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
 		},
 		width: 3,
-		height: 3,
-		name: "templar steel light body",
-		output: { type: "item", code: "fa-templar-body-light-iron-{color}"
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-light-meteoriciron-none"
 		}
 	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-light-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-light-iron-none"
+		}
+	}
 ]

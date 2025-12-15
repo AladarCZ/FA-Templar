@@ -3,6 +3,44 @@
 		ingredientPattern: "_BF,CDC,EGE",
 		recipeGroup: 1,
 		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-plate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"C": { type: "item", code: "game:metalplate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 2
+			},
+			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate legs",
+		output: { type: "item", code: "fa-templar-legs-heavy-{metal}-none"
+		}
+	},
+	{
+		ingredientPattern: "_BF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
 			"B": { type: "item", code: "game:armor-legs-plate-steel"
 			},
 			"C": { type: "item", code: "game:metalplate-steel", quantity: 2
@@ -23,166 +61,125 @@
 		}
 	},
 	{
-		ingredientPattern: "_BF,CDC,EGE",
+		ingredientPattern: "_G_,_B_,A_A",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:armor-legs-plate-meteoriciron"
+			"A": { type: "item", code: "game:cloth-*", name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 4
 			},
-			"C": { type: "item", code: "game:metalplate-meteoriciron", quantity: 2
+			"B": { type: "item", code: "fa-templar-legs-heavy-*-none", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
-			},
-			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 2
-			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			}
 		},
 		width: 3,
 		height: 3,
 		name: "templar plate legs",
+		output: { type: "item", code: "fa-templar-legs-heavy-{metal}-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AB,_G",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-legs-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"B": { type: "item", code: "fa-templar-legs-heavy-*-none", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "templar plate legs",
+		output: { type: "item", code: "fa-templar-legs-heavy-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-legs-heavy-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate legs deplume",
+		output: { type: "item", code: "fa-templar-legs-heavy-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-legs-heavy-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate legs deplume",
 		output: { type: "item", code: "fa-templar-legs-heavy-meteoriciron-none"
 		}
 	},
 	{
-		ingredientPattern: "_BF,CDC,EGE",
+		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:armor-legs-plate-iron"
+			"A": { type: "item", code: "fa-templar-legs-heavy-iron-*"
 			},
-			"C": { type: "item", code: "game:metalplate-iron", quantity: 2
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
-			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 2
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
-			}
 		},
 		width: 3,
-		height: 3,
-		name: "templar plate legs",
+		height: 2,
+		name: "templar steel plate legs deplume",
 		output: { type: "item", code: "fa-templar-legs-heavy-iron-none"
 		}
-	},
-	{
-		ingredientPattern: "ABF,CDC,EGE",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 8
-			},
-			"B": { type: "item", code: "game:armor-legs-plate-steel"
-			},
-			"C": { type: "item", code: "game:metalplate-steel", quantity: 2
-			},
-			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
-			},
-			"E": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 2
-			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"F": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
-			}
-		},
-		width: 3,
-		height: 3,
-		name: "templar plate legs",
-		output: { type: "item", code: "fa-templar-legs-heavy-steel-{color}"
-		}
-	},
-	{
-		ingredientPattern: "ABF,CDC,EGE",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 8
-			},
-			"B": { type: "item", code: "game:armor-legs-plate-meteoriciron"
-			},
-			"C": { type: "item", code: "game:metalplate-meteoriciron", quantity: 2
-			},
-			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
-			},
-			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 2
-			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
-			}
-		},
-		width: 3,
-		height: 3,
-		name: "templar plate legs",
-		output: { type: "item", code: "fa-templar-legs-heavy-meteoriciron-{color}"
-		}
-	},
-	{
-		ingredientPattern: "ABF,CDC,EGE",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 8
-			},
-			"B": { type: "item", code: "game:armor-legs-plate-iron"
-			},
-			"C": { type: "item", code: "game:metalplate-iron", quantity: 2
-			},
-			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
-			},
-			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 2
-			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"F": { type: "item", code: "game:leather-normal-plain", quantity: 4
-			}
-		},
-		width: 3,
-		height: 3,
-		name: "templar plate legs",
-		output: { type: "item", code: "fa-templar-legs-heavy-iron-{color}"
-		}
-	},
+	}
 ]

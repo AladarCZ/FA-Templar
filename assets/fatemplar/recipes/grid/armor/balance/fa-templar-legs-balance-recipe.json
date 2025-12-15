@@ -26,13 +26,28 @@
 		ingredientPattern: "GD_,EBE,CFC",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:armor-legs-scale-meteoriciron"
+			"B": { type: "item", code: "game:armor-legs-scale-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"C": { type: "item", code: "game:metalplate-meteoriciron", quantity: 1
+			"C": { type: "item", code: "game:metalplate-*",
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 1
 			},
 			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
-			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 1
+			"E": { type: "item", code: "game:metalnailsandstrips-*",
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 1
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -42,30 +57,93 @@
 		width: 3,
 		height: 3,
 		name: "templar balance legs",
+		output: { type: "item", code: "fa-templar-legs-balance-{metal}-plain"
+		}
+	},
+	{
+		ingredientPattern: "AB,_G",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-legs-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"B": { type: "item", code: "fa-templar-legs-balance-*-plain", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "templar plate body",
+		output: { type: "item", code: "fa-templar-legs-balance-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-legs-balance-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "Templar Plate balance",
+		output: { type: "item", code: "fa-templar-legs-balance-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-legs-balance-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "Templar Plate balance",
 		output: { type: "item", code: "fa-templar-legs-balance-meteoriciron-plain"
 		}
 	},
 	{
-		ingredientPattern: "GD_,EBE,CFC",
+		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:armor-legs-scale-iron"
+			"A": { type: "item", code: "fa-templar-legs-balance-iron-*"
 			},
-			"C": { type: "item", code: "game:metalplate-iron", quantity: 1
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"D": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
-			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 1
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"F": { type: "item", code: "game:leather-normal-plain", quantity: 2
-			}
 		},
 		width: 3,
-		height: 3,
-		name: "templar balance legs",
+		height: 2,
+		name: "Templar Plate balance",
 		output: { type: "item", code: "fa-templar-legs-balance-iron-plain"
 		}
-	},
+	}
 ]

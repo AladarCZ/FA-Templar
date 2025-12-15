@@ -4,30 +4,29 @@
 		"op": "replace",
 		"path": "/shapeByType",
 		"value": {
+		"fa-templar-body-light-*bear*": {
+			"base": "entity/armor/templar/light/templar_lightbear_body"
+		},
+		"fa-templar-body-light-*none": {
+			"base": "entity/armor/templar/light/templar_lightnone_body"
+		},
+		"fa-templar-body-balance-*bear*": {
+			"base": "entity/armor/templar/balance/templar_balancebear_body"
+		},
+		"fa-templar-body-balance-*none": {
+			"base": "entity/armor/templar/balance/templar_balancenone_body"
+		},
+		"fa-templar-body-heavy-*bear*": {
+			"base": "entity/armor/templar_co/templar_heavybear_body_co"
+		},
 		"fa-templar-body-light-*": {
-			"base": "fatemplar:entity/armor/templar/templar_light_body"
+			"base": "entity/armor/templar/light/templar_light_body"
 		},
 		"fa-templar-body-balance-*": {
-			"base": "fatemplar:entity/armor/templar/templar_balance_body"
+			"base": "entity/armor/templar/balance/templar_balance_body"
 		},
 		"fa-templar-body-heavy-*": {
-			"base": "fatemplar:entity/armor/templar_co/templar_heavy_body_co"
-		}
-				}
-	},
-	{
-		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
-		"op": "replace",
-		"path": "/shapeByType",
-		"value": {
-		"fa-templar-legs-light-*": {
-			"base": "fatemplar:entity/armor/templar/templar_light_legs"
-		},
-		"fa-templar-legs-balance-*": {
-			"base": "fatemplar:entity/armor/templar/templar_balance_legs"
-		},
-		"fa-templar-legs-heavy-*": {
-			"base": "fatemplar:entity/armor/templar_co/templar_heavy_legs_co"
+			"base": "entity/armor/templar_co/templar_heavy_body_co"
 		}
 				}
 	}

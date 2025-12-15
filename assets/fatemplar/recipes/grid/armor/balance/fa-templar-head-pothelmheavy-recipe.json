@@ -26,11 +26,26 @@
 		ingredientPattern: "DBD,_E_,GHI",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 4
+			"B": { type: "item", code: "game:metalnailsandstrips-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 4
 			},
-			"D": { type: "item", code: "game:metalplate-meteoriciron"
+			"D": { type: "item", code: "game:metalplate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"E": { type: "item", code: "game:armor-head-scale-meteoriciron"
+			"E": { type: "item", code: "game:armor-head-scale-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -42,135 +57,76 @@
 		width: 3,
 		height: 3,
 		name: "templar pothelmheavy plain",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-meteoriciron-none"
+		output: { type: "item", code: "fa-templar-head-pothelmheavy-{metal}-none"
 		}
 	},
 	{
-		ingredientPattern: "DBD,_E_,GHI",
+		ingredientPattern: "A_A,BEB,_G_",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 4
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
 			},
-			"D": { type: "item", code: "game:metalplate-iron"
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
 			},
-			"E": { type: "item", code: "game:armor-head-scale-iron"
+			"E": { type: "item", code: "fa-templar-head-pothelmheavy-*-none", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
-			"H": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate pothelmheavy",
+		output: { type: "item", code: "fa-templar-head-pothelmheavy-{metal}-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AB,_G",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-head-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
 			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			"B": { type: "item", code: "fa-templar-head-pothelmheavy-*-none", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			}
 		},
-		width: 3,
-		height: 3,
-		name: "templar pothelmheavy plain",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-iron-none"
-		}
-	},
-	{
-		ingredientPattern: "A_A,BEB,_G_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
-			},
-			"E": { type: "item", code: "fa-templar-head-pothelmheavy-steel-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "templar plate pothelmheavy",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-steel-{color}"
-		}
-	},
-	{
-		ingredientPattern: "A_A,BEB,_G_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
-			},
-			"E": { type: "item", code: "fa-templar-head-pothelmheavy-meteoriciron-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "templar plate pothelmheavy",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-meteoriciron-{color}"
-		}
-	},
-	{
-		ingredientPattern: "A_A,BEB,_G_",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:cloth-*", 
-					name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
-			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
-			},
-			"E": { type: "item", code: "fa-templar-head-pothelmheavy-iron-none"
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-		},
-		width: 3,
-		height: 3,
-		name: "templar plate pothelmheavy",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-iron-{color}"
+		width: 2,
+		height: 2,
+		name: "templar plate body",
+		output: { type: "item", code: "fa-templar-head-pothelmheavy-{metal}-bear-{bear}"
 		}
 	},
 	{
@@ -229,5 +185,5 @@
 		name: "Templar Plate PothelmHeavy",
 		output: { type: "item", code: "fa-templar-head-pothelmheavy-iron-none"
 		}
-	},
+	}
 ]

@@ -12,6 +12,149 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
+          "fa-templar-body-heavy-steel-*bear*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Torso",
+              "Arms",
+              "Hands"
+            ],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.09,
+              "manipulationSpeed": -0.20,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
+            }
+          },
+          "fa-templar-body-balance-steel-*bear*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Torso",
+              "Arms",
+              "Hands"
+            ],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 8,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.08,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
+            }
+          },
+          "fa-templar-body-light-steel-*bear*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Torso",
+              "Arms",
+              "Hands"
+            ],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.04,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-body-heavy-*iron-*bear*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Torso",
+              "Arms",
+              "Hands"
+            ],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.09,
+              "manipulationSpeed": -0.20,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
+            }
+          },
+          "fa-templar-body-balance-*iron-*bear*": {
+
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Torso",
+              "Arms",
+              "Hands"
+            ],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.08,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
+            }
+          },
+          "fa-templar-body-light-*iron-*bear*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Torso",
+              "Arms",
+              "Hands"
+            ],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.04,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
           "fa-templar-body-heavy-steel-*": {
             "Layers": [
               "Outer"
@@ -22,17 +165,17 @@
               "Hands"
             ],
             "Resists": {
-              "PiercingAttack": 7,
-              "SlashingAttack": 7,
-              "BluntAttack": 6
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.05,
-              "manipulationSpeed": -0.15,
-              "steadyAim": -0.20,
-              "healingeffectivness": -0.05,
-              "hungerrate": 0.05
+              "walkspeed": -0.07,
+              "manipulationSpeed": -0.20,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-body-balance-steel-*": {
@@ -46,15 +189,15 @@
               "Hands"
             ],
             "Resists": {
-              "PiercingAttack": 6,
+              "PiercingAttack": 8,
               "SlashingAttack": 8,
-              "BluntAttack": 5
+              "BluntAttack": 6
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.04,
-              "manipulationSpeed": -0.09,
-              "steadyAim": -0.1,
+              "walkspeed": -0.06,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
               "healingeffectivness": -0.04,
               "hungerrate": 0.04
             }
@@ -70,15 +213,15 @@
               "Hands"
             ],
             "Resists": {
-              "PiercingAttack": 4,
-              "SlashingAttack": 7,
-              "BluntAttack": 4
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.02,
+              "walkspeed": -0.01,
               "manipulationSpeed": -0.04,
-              "steadyAim": -0.04,
+              "steadyAim": -0.06,
               "healingeffectivness": -0.03,
               "hungerrate": 0.03
             }
@@ -93,17 +236,17 @@
               "Hands"
             ],
             "Resists": {
-              "PiercingAttack": 6,
-              "SlashingAttack": 6,
-              "BluntAttack": 5
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.05,
-              "manipulationSpeed": -0.15,
-              "steadyAim": -0.20,
-              "healingeffectivness": -0.05,
-              "hungerrate": 0.05
+              "walkspeed": -0.07,
+              "manipulationSpeed": -0.20,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.04
             }
           },
           "fa-templar-body-balance-*iron-*": {
@@ -118,15 +261,15 @@
               "Hands"
             ],
             "Resists": {
-              "PiercingAttack": 5,
+              "PiercingAttack": 7,
               "SlashingAttack": 7,
-              "BluntAttack": 4
+              "BluntAttack": 5
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.04,
-              "manipulationSpeed": -0.09,
-              "steadyAim": -0.1,
+              "walkspeed": -0.06,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
               "healingeffectivness": -0.04,
               "hungerrate": 0.04
             }
@@ -142,15 +285,15 @@
               "Hands"
             ],
             "Resists": {
-              "PiercingAttack": 3,
-              "SlashingAttack": 6,
-              "BluntAttack": 3
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.02,
+              "walkspeed": -0.01,
               "manipulationSpeed": -0.04,
-              "steadyAim": -0.04,
+              "steadyAim": -0.06,
               "healingeffectivness": -0.03,
               "hungerrate": 0.03
             }
@@ -169,15 +312,15 @@
       }
     ],
     "value": {
-      "fa-templar-body-heavy-steel-*": 60000,
+      "fa-templar-body-heavy-steel-*": 45000,
       "fa-templar-body-heavy-meteoriciron-*": 32000,
       "fa-templar-body-heavy-iron-*": 25000,
-      "fa-templar-body-balance-steel-*": 42000,
+      "fa-templar-body-balance-steel-*": 35600,
       "fa-templar-body-balance-meteoriciron-*": 25000,
       "fa-templar-body-balance-iron-*": 17000,
-      "fa-templar-body-light-steel-*": 25000,
+      "fa-templar-body-light-steel-*": 22000,
       "fa-templar-body-light-meteoriciron-*": 11000,
-      "fa-templar-body-light-iron-*": 9000,
+      "fa-templar-body-light-iron-*": 9000
     }
   },
   {

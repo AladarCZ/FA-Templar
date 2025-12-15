@@ -3,29 +3,21 @@
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-pothelmlight-steel-plain",  
+			"B": { type: "item", code: "fa-templar-head-pothelmlight-*-plain", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"P": { type: "item", code: "game:metalchain-steel"
-			},
-			"L": { type: "item", code: "game:leather-normal-plain"
-			}
-		},
-		width: 2,
-		height: 2,
-		shapeless: true,
-		copyAttributesFrom: 'B',
-		averageDurability: false,
-		name: "Templar pothelmlight repair",
-		output: { type: "item", code: "fa-templar-head-pothelmlight-steel-plain"
-		}
-	},
-	{
-		ingredientPattern: "BL,P_",
-		recipeGroup: 2,
-		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-pothelmlight-meteoriciron-plain",  
-			},
-			"P": { type: "item", code: "game:metalchain-meteoriciron"
+			"P": { type: "item", code: "game:metalchain-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"L": { type: "item", code: "game:leather-normal-plain"
 			}
@@ -36,27 +28,7 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "Templar pothelmlight repair",
-		output: { type: "item", code: "fa-templar-head-pothelmlight-meteoriciron-plain"
-		}
-	},
-	{
-		ingredientPattern: "BL,P_",
-		recipeGroup: 2,
-		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-pothelmlight-iron-plain",  
-			},
-			"P": { type: "item", code: "game:metalchain-iron"
-			},
-			"L": { type: "item", code: "game:leather-normal-plain"
-			}
-		},
-		width: 2,
-		height: 2,
-		shapeless: true,
-		copyAttributesFrom: 'B',
-		averageDurability: false,
-		name: "Templar pothelmlight repair",
-		output: { type: "item", code: "fa-templar-head-pothelmlight-iron-plain"
+		output: { type: "item", code: "fa-templar-head-pothelmlight-{metal}-plain"
 		}
 	},
 	{
@@ -76,7 +48,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalchain-steel"
@@ -110,7 +86,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalchain-meteoriciron"
@@ -144,7 +124,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalchain-iron"
@@ -168,17 +152,9 @@
 			"B": { type: "item", code: "fa-templar-legs-light-steel-*",  
 						name: "color", allowedVariants: [
 					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalchain-steel"
@@ -202,17 +178,9 @@
 			"B": { type: "item", code: "fa-templar-legs-light-meteoriciron-*",  
 						name: "color", allowedVariants: [
 					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalchain-meteoriciron"
@@ -236,17 +204,9 @@
 			"B": { type: "item", code: "fa-templar-legs-light-iron-*",  
 						name: "color", allowedVariants: [
 					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalchain-iron"

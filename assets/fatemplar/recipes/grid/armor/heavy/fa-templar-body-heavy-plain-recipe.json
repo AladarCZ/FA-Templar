@@ -28,11 +28,26 @@
 		ingredients: {
 			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
-			"D": { type: "item", code: "game:metalplate-meteoriciron", quantity: 3
+			"D": { type: "item", code: "game:metalplate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 3
 			},
-			"E": { type: "item", code: "game:armor-body-plate-meteoriciron"
+			"E": { type: "item", code: "game:armor-body-plate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 6
+			"F": { type: "item", code: "game:metalnailsandstrips-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				], quantity: 6
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -42,30 +57,93 @@
 		width: 3,
 		height: 3,
 		name: "templar meteoriciron plate body",
+		output: { type: "item", code: "fa-templar-body-heavy-{metal}-plain"
+		}
+	},
+	{
+		ingredientPattern: "AB,_G",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-body-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"B": { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "templar plate body",
+		output: { type: "item", code: "fa-templar-body-heavy-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-heavy-steel-*bear*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-heavy-steel-plain"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-heavy-meteoriciron-*bear*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate body deplume",
 		output: { type: "item", code: "fa-templar-body-heavy-meteoriciron-plain"
 		}
 	},
 	{
-		ingredientPattern: "FBF,DED,IGI",
+		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"A": { type: "item", code: "fa-templar-body-heavy-iron-*bear*"
 			},
-			"D": { type: "item", code: "game:metalplate-iron", quantity: 3
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"E": { type: "item", code: "game:armor-body-plate-iron"
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 6
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 6
-			}
 		},
 		width: 3,
-		height: 3,
-		name: "templar iron plate body",
+		height: 2,
+		name: "templar steel plate body deplume",
 		output: { type: "item", code: "fa-templar-body-heavy-iron-plain"
 		}
-	},
+	}
 ]

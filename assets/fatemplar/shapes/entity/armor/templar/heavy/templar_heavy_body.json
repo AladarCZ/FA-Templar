@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
-		"collapsedPaths": "Root/ArmorUpperTorso,Root/ArmorUpperArmL/PauldronRimL14,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronLB,Root/ArmorUpperArmL/seal-main,Root/PaintUpperTorso,Root/ArmorUpperArmR/ArmorPauldronRRef/ArmorPauldronRB,Root/ArmorLowerArmL/ArmorHandL6,Root/ArmorUpperTorsoRef/Emblem/Emblem2,Root/ArmorUpperArmR/ArmorPauldronR(F),Root/ArmorUpperTorsoRef/ArmorUpperTorso2,Root/origin/sheet/scroll-bigger/seal-main,Root/ArmorUpperTorsoRef/ArmorUpperTorso1,Root/ArmorUpperTorsoRef/ArmorUpperTorso4,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronTopL,Root/ArmorUpperTorsoRef/ArmorUpperTorso3,Root/PaintLowerTorso,Root/ArmorUpperArmR/ArmorPauldronR(F)2,Root/ArmorUpperArmR/ArmorPauldronRRef2,Root/ArmorUpperTorsoRef/Emblem,Root/ArmorUpperArmL/PauldronRimL27,Root/ArmorUpperArmL/PauldronRimL,Root/ArmorUpperArmR/ArmorPauldronR(F)/ArmorPauldronTopR,Root/ArmorUpperArmL/ArmorPauldronR(F)2,Root/ArmorUpperArmR2,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronLL",
+		"collapsedPaths": "Root/ArmorUpperArmR/ArmorPauldronR(F)2,Root/ArmorUpperArmL/PauldronRimL14,Root/ArmorUpperArmR/ArmorPauldronRRef2,Root/ArmorUpperTorsoRef/Emblem,Root/ArmorUpperArmL/PauldronRimL27,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronLB,Root/ArmorUpperArmR/ArmorPauldronR(F)/ArmorPauldronTopR,Root/PaintUpperTorso,Root/ArmorUpperArmR/ArmorPauldronRRef/ArmorPauldronRB,Root/ArmorUpperArmL/ArmorPauldronR(F)2,Root/ArmorLowerArmL/ArmorHandL6,Root/ArmorUpperTorsoRef/Emblem/Emblem2,Root/ArmorUpperArmR2,Root/ArmorUpperArmR/ArmorPauldronR(F),Root/ArmorUpperTorsoRef/ArmorUpperTorso2,Root/origin/sheet/scroll-bigger/seal-main,Root/ArmorUpperTorsoRef/ArmorUpperTorso1,Root/ArmorUpperTorsoRef/ArmorUpperTorso4,Root/ArmorUpperArmR,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronTopL,Root/ArmorUpperTorsoRef/ArmorUpperTorso3,Root/ArmorUpperArmL,Root/PaintLowerTorso,Root/ArmorUpperArmL/ArmorPauldronL(F)/ArmorPauldronLL",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -17,26 +17,25 @@
 		{
 			"name": "ArmorUpperArmR",
 			"stepParentName": "UpperArmR",
-			"from": [ -0.2, -0.2, -0.4 ],
+			"from": [ -0.2, -0.2, -0.1 ],
 			"to": [ 3.1, 7.2, 2.3 ],
-			"autoUnwrap": false,
-			"uv": [ 43.5, -0.5 ],
-			"rotationOrigin": [ -0.2, -0.2, -0.4 ],
+			"uv": [ 43.5, 0.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.1 ],
 			"faces": {
-				"north": { "texture": "#templarbody", "uv": [ 43.5, 2.0, 46.5, 8.0 ], "autoUv": false },
-				"east": { "texture": "#templarbody", "uv": [ 46.5, 2.0, 49.0, 9.0 ] },
-				"south": { "texture": "#templarbody", "uv": [ 49.0, 2.0, 52.0, 9.0 ] },
-				"west": { "texture": "#templarbody", "uv": [ 52.0, 2.0, 54.5, 9.0 ] },
-				"up": { "texture": "#templarbody", "uv": [ 43.5, 0.0, 46.5, 2.5 ] },
-				"down": { "texture": "#templarbody", "uv": [ 46.5, 0.0, 49.5, 2.5 ] }
+				"north": { "texture": "#templarbody", "uv": [ 43.5, 2.0, 46.5, 9.0 ] },
+				"east": { "texture": "#templarbody", "uv": [ 46.5, 2.0, 48.5, 9.0 ] },
+				"south": { "texture": "#templarbody", "uv": [ 48.5, 2.0, 51.5, 9.0 ] },
+				"west": { "texture": "#templarbody", "uv": [ 51.5, 2.0, 53.5, 9.0 ] },
+				"up": { "texture": "#templarbody", "uv": [ 43.5, 0.0, 46.5, 2.0 ] },
+				"down": { "texture": "#templarbody", "uv": [ 46.5, 0.0, 49.5, 2.0 ] }
 			},
 			"children": [
 				{
 					"name": "PauldronRimL27",
-					"from": [ 4.0, 5.5, 1.9 ],
-					"to": [ 8.75, 8.2, 5.0 ],
+					"from": [ 4.0, 5.5, 1.6 ],
+					"to": [ 8.75, 8.2, 4.7 ],
 					"uv": [ 46.5, 26.5 ],
-					"rotationOrigin": [ 4.0, 5.5, 1.9 ],
+					"rotationOrigin": [ 4.0, 5.5, 1.6 ],
 					"rotationX": -17.0,
 					"rotationY": 180.0,
 					"rotationZ": 3.0,
@@ -713,29 +712,28 @@
 		{
 			"name": "ArmorUpperArmL",
 			"stepParentName": "UpperArmL",
-			"from": [ 3.1, -0.1, 2.4 ],
-			"to": [ 6.4, 7.3, 5.1 ],
-			"autoUnwrap": false,
-			"uv": [ 43.5, -0.5 ],
-			"rotationOrigin": [ 3.1, -0.1, 2.4 ],
+			"from": [ 3.1, -0.1, 2.1 ],
+			"to": [ 6.4, 7.3, 4.5 ],
+			"uv": [ 43.5, 0.0 ],
+			"rotationOrigin": [ 3.1, -0.1, 2.1 ],
 			"rotationY": 180.0,
 			"faces": {
-				"north": { "texture": "#templarbody", "uv": [ 43.5, 2.0, 46.5, 8.0 ], "autoUv": false },
-				"east": { "texture": "#templarbody", "uv": [ 46.5, 2.0, 49.0, 9.0 ] },
-				"south": { "texture": "#templarbody", "uv": [ 49.0, 2.0, 52.0, 9.0 ] },
-				"west": { "texture": "#templarbody", "uv": [ 52.0, 2.0, 54.5, 9.0 ] },
-				"up": { "texture": "#templarbody", "uv": [ 43.5, 0.0, 46.5, 2.5 ] },
-				"down": { "texture": "#templarbody", "uv": [ 46.5, 0.0, 49.5, 2.5 ] }
+				"north": { "texture": "#templarbody", "uv": [ 43.5, 2.0, 46.5, 9.0 ] },
+				"east": { "texture": "#templarbody", "uv": [ 46.5, 2.0, 48.5, 9.0 ] },
+				"south": { "texture": "#templarbody", "uv": [ 48.5, 2.0, 51.5, 9.0 ] },
+				"west": { "texture": "#templarbody", "uv": [ 51.5, 2.0, 53.5, 9.0 ] },
+				"up": { "texture": "#templarbody", "uv": [ 43.5, 0.0, 46.5, 2.0 ] },
+				"down": { "texture": "#templarbody", "uv": [ 46.5, 0.0, 49.5, 2.0 ] }
 			},
 			"children": [
 				{
 					"name": "seal-main",
-					"from": [ 4.5, 5.34, 1.2 ],
-					"to": [ 6.0, 5.84, 2.7 ],
+					"from": [ 4.5, 5.34, 0.9 ],
+					"to": [ 6.0, 5.84, 2.4 ],
 					"unwrapMode": 5,
 					"unwrapRotation": 1,
 					"uv": [ 33.5, 8.0 ],
-					"rotationOrigin": [ 4.2, 5.34, 1.2 ],
+					"rotationOrigin": [ 4.2, 5.34, 0.9 ],
 					"rotationX": 88.0,
 					"rotationY": 9.0,
 					"rotationZ": 268.0,
@@ -913,10 +911,10 @@
 				},
 				{
 					"name": "PauldronRimL",
-					"from": [ 4.1, 5.5, 1.9 ],
-					"to": [ 8.9, 8.2, 4.0 ],
+					"from": [ 4.1, 5.5, 1.6 ],
+					"to": [ 8.9, 8.2, 3.7 ],
 					"uv": [ 47.0, 19.5 ],
-					"rotationOrigin": [ 4.1, 5.5, 1.9041 ],
+					"rotationOrigin": [ 4.1, 5.5, 1.6041 ],
 					"rotationX": -17.0,
 					"rotationY": 180.0,
 					"rotationZ": -3.0,
@@ -1272,7 +1270,6 @@
 					"to": [ 6.01, 5.31, 7.01 ],
 					"autoUnwrap": false,
 					"uv": [ 35.5, 23.5 ],
-					"renderInEditor": false,
 					"faces": {
 						"north": { "texture": "#textile", "uv": [ 43.6, 0.5, 49.5, 5.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"east": { "texture": "#textile", "uv": [ 49.1, 17.1, 62.1, 25.1 ], "autoUv": false },
@@ -1320,24 +1317,23 @@
 		{
 			"name": "ArmorLowerTorso",
 			"stepParentName": "LowerTorso",
-			"from": [ -0.3, -0.5, -0.51 ],
-			"to": [ 5.2, 5.1, 6.51 ],
-			"autoUnwrap": false,
-			"uv": [ 0.0, 2.0 ],
-			"rotationOrigin": [ -0.3, -0.5, -0.5 ],
+			"from": [ -0.3, -0.5, -0.3 ],
+			"to": [ 5.2, 5.1, 6.3 ],
+			"uv": [ 0.0, 2.5 ],
+			"rotationOrigin": [ -0.3, -0.5, -0.3 ],
 			"faces": {
-				"north": { "texture": "#templarbody", "uv": [ 0.0, 9.0, 5.5, 14.5 ], "autoUv": false },
-				"east": { "texture": "#templarbody", "uv": [ 5.5, 9.0, 12.0, 14.5 ], "autoUv": false },
-				"south": { "texture": "#templarbody", "uv": [ 12.0, 9.0, 18.0, 14.5 ], "autoUv": false },
-				"west": { "texture": "#templarbody", "uv": [ 17.5, 9.0, 24.0, 14.5 ], "autoUv": false },
-				"up": { "texture": "#templarbody", "uv": [ 0.0, 2.5, 5.5, 9.0 ], "autoUv": false },
-				"down": { "texture": "#templarbody", "uv": [ 5.5, 2.5, 11.0, 9.0 ], "autoUv": false }
+				"north": { "texture": "#templarbody", "uv": [ 0.0, 9.0, 5.5, 14.5 ] },
+				"east": { "texture": "#templarbody", "uv": [ 5.5, 9.0, 12.0, 14.5 ] },
+				"south": { "texture": "#templarbody", "uv": [ 12.0, 9.0, 17.5, 14.5 ] },
+				"west": { "texture": "#templarbody", "uv": [ 17.5, 9.0, 24.0, 14.5 ] },
+				"up": { "texture": "#templarbody", "uv": [ 0.0, 2.5, 5.5, 9.0 ] },
+				"down": { "texture": "#templarbody", "uv": [ 5.5, 2.5, 11.0, 9.0 ] }
 			},
 			"children": [
 				{
 					"name": "PaintLowerTorso",
-					"from": [ -0.01, -0.01, -0.03 ],
-					"to": [ 5.51, 5.61, 7.03 ],
+					"from": [ -0.01, -0.01, -0.01 ],
+					"to": [ 5.51, 5.61, 6.61 ],
 					"autoUnwrap": false,
 					"uv": [ 36.0, 16.5 ],
 					"rotationOrigin": [ -1.0, 0.0, 0.0 ],
@@ -1346,7 +1342,7 @@
 						"east": { "texture": "#textile", "uv": [ 49.0, 21.9, 62.0, 33.1 ], "autoUv": false },
 						"south": { "texture": "#textile", "uv": [ 43.5, 2.0, 49.0, 7.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
 						"west": { "texture": "#textile", "uv": [ 50.5, 10.5, 60.5, 17.9 ], "autoUv": false },
-						"down": { "texture": "#textile", "uv": [ 43.0, 0.5, 48.5, 7.5 ], "windMode": [-1,-1,-1,-1] }
+						"down": { "texture": "#textile", "uv": [ 43.0, 0.5, 48.5, 7.0 ], "windMode": [-1,-1,-1,-1] }
 					}
 				}
 			]
@@ -1402,8 +1398,8 @@
 				},
 				{
 					"name": "PaintCoatR",
-					"from": [ -0.01, -0.01, -0.01 ],
-					"to": [ 6.21, 2.01, 4.01 ],
+					"from": [ -0.02, -0.01, -0.01 ],
+					"to": [ 6.22, 2.01, 4.01 ],
 					"uv": [ 36.5, 28.0 ],
 					"rotationOrigin": [ -0.1, 0.0, -0.25 ],
 					"faces": {
@@ -1417,8 +1413,8 @@
 					"children": [
 						{
 							"name": "PaintCoatR2",
-							"from": [ 0.02, -1.8, -0.6 ],
-							"to": [ 6.24, 0.23, 0.42 ],
+							"from": [ 0.03, -1.8, -0.6 ],
+							"to": [ 6.25, 0.23, 0.42 ],
 							"autoUnwrap": false,
 							"uv": [ 25.0, 30.0 ],
 							"rotationOrigin": [ 0.0, -1.8, -0.75 ],
@@ -1434,8 +1430,8 @@
 						},
 						{
 							"name": "PaintCoatR3",
-							"from": [ 0.5, -3.83, -0.6 ],
-							"to": [ 5.72, -1.79, -0.08 ],
+							"from": [ 0.51, -3.83, -0.6 ],
+							"to": [ 5.73, -1.79, -0.08 ],
 							"autoUnwrap": false,
 							"uv": [ 24.0, 33.5 ],
 							"rotationOrigin": [ 0.5, -3.8, -0.75 ],
@@ -1503,8 +1499,8 @@
 				},
 				{
 					"name": "PaintCoatL",
-					"from": [ -0.01, -0.01, -0.01 ],
-					"to": [ 6.21, 2.01, 4.01 ],
+					"from": [ -0.02, -0.01, -0.01 ],
+					"to": [ 6.22, 2.01, 4.01 ],
 					"uv": [ 36.5, 28.0 ],
 					"rotationOrigin": [ 0.0, 0.0, -0.15 ],
 					"faces": {
@@ -1518,8 +1514,8 @@
 					"children": [
 						{
 							"name": "PaintCoatL2",
-							"from": [ 0.02, -2.01, 3.6 ],
-							"to": [ 6.24, 0.02, 4.62 ],
+							"from": [ 0.03, -2.01, 3.6 ],
+							"to": [ 6.25, 0.02, 4.62 ],
 							"autoUnwrap": false,
 							"uv": [ 24.5, 29.5 ],
 							"rotationOrigin": [ 0.0, -2.0, 3.45 ],
@@ -1535,8 +1531,8 @@
 						},
 						{
 							"name": "PaintCoatL3",
-							"from": [ 0.5, -3.83, 4.1 ],
-							"to": [ 5.72, -1.79, 4.62 ],
+							"from": [ 0.51, -3.83, 4.1 ],
+							"to": [ 5.73, -1.79, 4.62 ],
 							"autoUnwrap": false,
 							"uv": [ 26.5, 30.0 ],
 							"rotationOrigin": [ 0.5, -3.8, 3.95 ],

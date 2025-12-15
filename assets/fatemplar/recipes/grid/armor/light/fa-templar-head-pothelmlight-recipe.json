@@ -3,11 +3,26 @@
 		ingredientPattern: "DBD,_E_,G_H",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 2
+			"B": { type: "item", code: "game:metalnailsandstrips-*", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				], quantity: 2
 			},
-			"D": { type: "item", code: "game:metalplate-steel"
+			"D": { type: "item", code: "game:metalplate-*", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"E": { type: "item", code: "game:armor-head-chain-steel"
+			"E": { type: "item", code: "game:armor-head-chain-*", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -17,49 +32,93 @@
 		width: 3,
 		height: 3,
 		name: "templar pothelmlight plain",
+		output: { type: "item", code: "fa-templar-head-pothelmlight-{metal}-plain"
+		}
+	},
+	{
+		ingredientPattern: "AB,_G",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-head-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"B": { type: "item", code: "fa-templar-head-pothelmlight-*-plain", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "templar plate head",
+		output: { type: "item", code: "fa-templar-head-pothelmlight-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-head-pothelmlight-steel-*bear*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate head deplume",
 		output: { type: "item", code: "fa-templar-head-pothelmlight-steel-plain"
 		}
 	},
 	{
-		ingredientPattern: "DBD,_E_,G_H",
+		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 2
+			"A": { type: "item", code: "fa-templar-head-pothelmlight-meteoriciron-*bear*"
 			},
-			"D": { type: "item", code: "game:metalplate-meteoriciron"
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"E": { type: "item", code: "game:armor-head-chain-meteoriciron"
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"H": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
 		},
 		width: 3,
-		height: 3,
-		name: "templar pothelmlight plain",
+		height: 2,
+		name: "templar steel plate head deplume",
 		output: { type: "item", code: "fa-templar-head-pothelmlight-meteoriciron-plain"
 		}
 	},
 	{
-		ingredientPattern: "DBD,_E_,G_H",
+		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 2
+			"A": { type: "item", code: "fa-templar-head-pothelmlight-iron-*bear*"
 			},
-			"D": { type: "item", code: "game:metalplate-iron"
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"E": { type: "item", code: "game:armor-head-chain-iron"
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"H": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			},
 		},
 		width: 3,
-		height: 3,
-		name: "templar pothelmlight plain",
+		height: 2,
+		name: "templar steel plate head deplume",
 		output: { type: "item", code: "fa-templar-head-pothelmlight-iron-plain"
 		}
-	},
+	}
 ]

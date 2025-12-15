@@ -16,33 +16,13 @@
                     "pink"
                 ]
             },
-            { type: "item", code: "fa-templar-body-heavy-steel-plain"
-            }
-        ],
-		output: { type: "item", code: "fa-templar-body-heavy-steel-{color}", stackSize: 1
-        }
-    },
-    {
-		code: "fa-templar-body-meteoriciron-colored",
-        sealHours: 0,
-		ingredients: [
-            { type: "item", code: "game:dye-*", name: "color", litres: 20, consumelitres: 20, allowedVariants: [
-                    "orange",
-                    "black",
-                    "red",
-                    "blue",
-                    "green",
-                    "yellow",
-                    "white",
-                    "gray",
-                    "purple",
-                    "pink"
+            { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", allowedVariants: [
+                    "steel",
+                    "meteoriciron",
                 ]
-            },
-            { type: "item", code: "fa-templar-body-heavy-meteoriciron-plain"
             }
         ],
-		output: { type: "item", code: "fa-templar-body-heavy-meteoriciron-{color}", stackSize: 1
+		output: { type: "item", code: "fa-templar-body-heavy-{metal}-{color}", stackSize: 1
         }
     },
     {
@@ -53,7 +33,7 @@
             },
             { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", allowedVariants: [
                     "steel",
-                    "meteoriciron",
+                    "meteoriciron"
                 ]
             }
         ],
@@ -68,11 +48,57 @@
             },
             { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", allowedVariants: [
                     "steel",
-                    "meteoriciron",
+                    "meteoriciron"
                 ]
             }
         ],
 		output: { type: "item", code: "fa-templar-body-heavy-{metal}-brown", stackSize: 1
         }
     },
+    {
+		code: "fa-templar-body-steel-colored",
+        sealHours: 0,
+		ingredients: [
+            { type: "item", code: "game:sulfate-full-chromite", litres: 5, consumelitres: 5 
+            },
+            { type: "item", code: "fa-templar-body-heavy-meteoriciron-*", name: "color", allowedVariants: [
+                    "orange",
+                    "black",
+                    "red",
+                    "blue",
+                    "green",
+                    "yellow",
+                    "white",
+                    "gray",
+                    "purple",
+                    "pink"
+                ]
+            }
+        ],
+		output: { type: "item", code: "fa-templar-body-heavy-meteoriciron-plain", stackSize: 1
+        }
+    },
+    {
+		code: "fa-templar-body-steel-colored",
+        sealHours: 0,
+		ingredients: [
+            { type: "item", code: "game:sulfate-full-chromite", litres: 5, consumelitres: 5 
+            },
+            { type: "item", code: "fa-templar-body-heavy-steel-*", name: "color", allowedVariants: [
+                    "orange",
+                    "black",
+                    "red",
+                    "blue",
+                    "green",
+                    "yellow",
+                    "white",
+                    "gray",
+                    "purple",
+                    "pink"
+                ]
+            }
+        ],
+		output: { type: "item", code: "fa-templar-body-heavy-steel-plain", stackSize: 1
+        }
+    }
 ]

@@ -33,29 +33,64 @@
 				"orange",
 				"yellow",
 				"gray",
-				"plain"
+				"plain",
+				"none",
+				"bear-black",
+				"bear-brown",
+				"bear-polar"
 			]
-		},
+		}
 	],
 	"allowedVariants": [
 		"fa-templar-body-heavy-steel-*",
 		"fa-templar-body-heavy-meteoriciron-*",
 		"fa-templar-body-heavy-iron-plain",
+		"fa-templar-body-heavy-iron-*bear*",
 		"fa-templar-body-balance-*",
 		"fa-templar-body-light-*"
 	],
+	"skipVariants": [
+		"fa-templar-body-heavy-steel-none",
+		"fa-templar-body-heavy-meteoriciron-none"
+	],
 	"shapeByType": {
+		"fa-templar-body-light-*bear*": {
+			"base": "entity/armor/templar/light/templar_lightbear_body"
+		},
+		"fa-templar-body-light-*none": {
+			"base": "entity/armor/templar/light/templar_lightnone_body"
+		},
+		"fa-templar-body-balance-*bear*": {
+			"base": "entity/armor/templar/balance/templar_balancebear_body"
+		},
+		"fa-templar-body-balance-*none": {
+			"base": "entity/armor/templar/balance/templar_balancenone_body"
+		},
+		"fa-templar-body-heavy-*bear*": {
+			"base": "entity/armor/templar/heavy/templar_heavybear_body"
+		},
 		"fa-templar-body-light-*": {
-			"base": "entity/armor/templar/templar_light_body"
+			"base": "entity/armor/templar/light/templar_light_body"
 		},
 		"fa-templar-body-balance-*": {
-			"base": "entity/armor/templar/templar_balance_body"
+			"base": "entity/armor/templar/balance/templar_balance_body"
 		},
 		"fa-templar-body-heavy-*": {
-			"base": "entity/armor/templar/templar_heavy_body"
-		},
+			"base": "entity/armor/templar/heavy/templar_heavy_body"
+		}
 	},
 	"texturesByType": {
+		"fa-templar-body-*bear*": {
+			"seraph": {
+				"base": "game:block/transparent"
+			},
+			"templarbody": {
+				"base": "armor/entity/templar_{type}_{metalbody}"
+			},
+			"textile": {
+				"base": "game:entity/humanoid/serapharmor/hide/bear/{textile}"
+			}
+		},
 		"fa-templar-body-*-steel-*": {
 			"seraph": {
 				"base": "game:block/transparent"
@@ -104,10 +139,20 @@
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": {
+			"groupBy": [
+				"fa-templar-body-{type}-{metalbody}-*"
+			]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
-			"*": "armorbody",
+			"*": "armorbody"
+		},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
 		},
 		"footStepSoundByType": {
 			"fa-templar-body-light-**": "game:wearable/chain*",
@@ -132,55 +177,76 @@
 				protectionTier: 4
 			},
 			"*-balance-steel-*": {
-				relativeProtection: 0.98,
-				flatDamageReduction: 1.95,
+				relativeProtection: 0.92,
+				flatDamageReduction: 3.6,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-heavy-steel-*": {
 				relativeProtection: 0.97,
-				flatDamageReduction: 1.8,
+				flatDamageReduction: 3.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-light-meteoriciron-*": {
-				relativeProtection: 0.845,
+				relativeProtection: 0.85,
 				flatDamageReduction: 1.35,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-balance-meteoriciron-*": {
-				relativeProtection: 0.885,
-				flatDamageReduction: 1.55,
+				relativeProtection: 0.91,
+				flatDamageReduction: 3.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-heavy-meteoriciron-*": {
 				relativeProtection: 0.962,
-				flatDamageReduction: 1.72,
+				flatDamageReduction: 3.4,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-light-iron-*": {
-				relativeProtection: 0.84,
+				relativeProtection: 0.845,
 				flatDamageReduction: 1.3,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-balance-iron-*": {
-				relativeProtection: 0.88,
-				flatDamageReduction: 1.5,
+				relativeProtection: 0.91,
+				flatDamageReduction: 3.4,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-heavy-iron-*": {
 				relativeProtection: 0.96,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 3.35,
 				highDamageTierResistant: true,
 				protectionTier: 3
-			},
+			}
 		},
 		"statModifiersByType": {
+			"*-light-*bear*": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.06,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.05,
+				hungerrate: 0.05
+			},
+			"*-balance-*bear*": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.2,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.06,
+				hungerrate: 0.06
+			},
+			"*-heavy-*bear*": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.2,
+				walkSpeed: -0.17,
+				healingeffectivness: -0.1,
+				hungerrate: 0.1
+			},
 			"*-light-*": {
 				rangedWeaponsAcc: -0.03,
 				rangedWeaponsSpeed: -0.06,
@@ -191,17 +257,17 @@
 			"*-balance-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.07,
-				healingeffectivness: -0.05,
-				hungerrate: 0.05
+				walkSpeed: -0.05,
+				healingeffectivness: -0.06,
+				hungerrate: 0.06
 			},
 			"*-heavy-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.14,
+				walkSpeed: -0.15,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
-			},
+			}
 		}
 	},
 	"creativeinventory": {

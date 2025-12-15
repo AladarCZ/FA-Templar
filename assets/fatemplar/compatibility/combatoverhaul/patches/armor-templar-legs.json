@@ -12,7 +12,7 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
-          "fa-templar-legs-heavy-steel-*": {
+          "fa-templar-legs-heavy-steel-*bear*": {
             "Layers": [
               "Outer"
             ],
@@ -21,22 +21,91 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 7,
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.27,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-legs-heavy-*iron-*bear*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 9,
               "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.27,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-legs-balance-steel-*bear*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 8,
               "BluntAttack": 6
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.13,
+              "walkspeed": -0.14,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.04,
-              "hungerrate": 0.04
+              "healingeffectivness": -0.02,
+              "hungerrate": 0.02
             }
           },
-          "fa-templar-legs-heavy-*iron-*": {
+          "fa-templar-legs-balance-*iron-*bear*": {
             "Layers": [
-              "Outer"
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.14,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.02,
+              "hungerrate": 0.02
+            }
+          },
+          "fa-templar-legs-light-steel-*bear*": {
+            "Layers": [
+              "Outer",
+              "Middle"
             ],
             "Zones": [
               "Legs",
@@ -49,11 +118,78 @@
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.13,
+              "walkspeed": -0.07,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.04,
-              "hungerrate": 0.04
+              "healingeffectivness": -0.01,
+              "hungerrate": 0.01
+            }
+          },
+          "fa-templar-legs-light-*iron-*bear*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.07,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.01,
+              "hungerrate": 0.01
+            }
+          },
+          "fa-templar-legs-heavy-steel-*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.25,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-legs-heavy-*iron-*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.25,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
             }
           },
           "fa-templar-legs-balance-steel-*": {
@@ -66,17 +202,17 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 6,
+              "PiercingAttack": 8,
               "SlashingAttack": 8,
-              "BluntAttack": 5
+              "BluntAttack": 6
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.07,
+              "walkspeed": -0.12,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.04,
-              "hungerrate": 0.04
+              "healingeffectivness": -0.02,
+              "hungerrate": 0.02
             }
           },
           "fa-templar-legs-balance-*iron-*": {
@@ -89,17 +225,17 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 5,
+              "PiercingAttack": 7,
               "SlashingAttack": 7,
-              "BluntAttack": 4
+              "BluntAttack": 5
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.07,
+              "walkspeed": -0.12,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.04,
-              "hungerrate": 0.04
+              "healingeffectivness": -0.02,
+              "hungerrate": 0.02
             }
           },
           "fa-templar-legs-light-steel-*": {
@@ -112,17 +248,17 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 4,
-              "SlashingAttack": 7,
-              "BluntAttack": 4
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.03,
+              "walkspeed": -0.05,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.01,
+              "hungerrate": 0.01
             }
           },
           "fa-templar-legs-light-*iron-*": {
@@ -135,17 +271,17 @@
               "Feet"
             ],
             "Resists": {
-              "PiercingAttack": 3,
+              "PiercingAttack": 6,
               "SlashingAttack": 6,
-              "BluntAttack": 3
+              "BluntAttack": 5
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.03,
+              "walkspeed": -0.05,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.03,
-              "hungerrate": 0.03
+              "healingeffectivness": -0.01,
+              "hungerrate": 0.01
             }
           }
         }
@@ -162,15 +298,15 @@
       }
     ],
     "value": {
-      "fa-templar-legs-heavy-steel-*": 46000,
+      "fa-templar-legs-heavy-steel-*": 34000,
       "fa-templar-legs-heavy-meteoriciron-*": 26000,
       "fa-templar-legs-heavy-iron-*": 19500,
-      "fa-templar-legs-balance-steel-*": 32000,
+      "fa-templar-legs-balance-steel-*": 28400,
       "fa-templar-legs-balance-meteoriciron-*": 16000,
       "fa-templar-legs-balance-iron-*": 11000,
-      "fa-templar-legs-light-steel-*": 16000,
-      "fa-templar-legs-light-meteoriciron-*": 9000,
-      "fa-templar-legs-light-iron-*": 7500,
+      "fa-templar-legs-light-steel-*": 17000,
+      "fa-templar-legs-light-meteoriciron-*": 10000,
+      "fa-templar-legs-light-iron-*": 8500
     }
   },
   {

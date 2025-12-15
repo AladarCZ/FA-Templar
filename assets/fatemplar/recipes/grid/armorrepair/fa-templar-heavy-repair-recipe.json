@@ -3,7 +3,13 @@
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-greathelm-steel-plain",  
+			"B": { type: "item", code: "fa-templar-head-greathelm-steel-*",  
+					name: "color", allowedVariants: [
+					"plain",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
 			},
 			"P": { type: "item", code: "game:metalplate-steel"
 			},
@@ -16,14 +22,20 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "Templar Greathelm repair",
-		output: { type: "item", code: "fa-templar-head-greathelm-steel-plain"
+		output: { type: "item", code: "fa-templar-head-greathelm-steel-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain",  
+			"B": { type: "item", code: "fa-templar-head-greathelm-meteoriciron-*",  
+					name: "color", allowedVariants: [
+					"plain",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
 			},
 			"P": { type: "item", code: "game:metalplate-meteoriciron"
 			},
@@ -36,14 +48,20 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "Templar Greathelm repair",
-		output: { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain"
+		output: { type: "item", code: "fa-templar-head-greathelm-meteoriciron-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-greathelm-iron-plain",  
+			"B": { type: "item", code: "fa-templar-head-greathelm-iron-*",  
+					name: "color", allowedVariants: [
+					"plain",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
 			},
 			"P": { type: "item", code: "game:metalplate-iron"
 			},
@@ -56,7 +74,7 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "Templar Greathelm repair",
-		output: { type: "item", code: "fa-templar-head-greathelm-iron-plain"
+		output: { type: "item", code: "fa-templar-head-greathelm-iron-{color}"
 		}
 	},
 	{
@@ -391,7 +409,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-steel"
@@ -425,7 +447,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-meteoriciron"
@@ -459,7 +485,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-iron"
@@ -493,7 +523,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-steel"
@@ -527,7 +561,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-meteoriciron"
@@ -561,7 +599,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-iron"
@@ -577,35 +619,5 @@
 		name: "Templar Legs Heavy Repair",
 		output: { type: "item", code: "fa-templar-legs-heavy-iron-{color}"
 		}
-	},
-		{
-		ingredientPattern: "BL,P_",
-		recipeGroup: 2,
-		ingredients: {
-			"B": { type: "item", code: "fa-templar-legs-heavy-*-none",  
-						name: "metal", allowedVariants: [
-					"steel",
-					"meteoriciron",
-					"iron"
-				]
-			},
-			"P": { type: "item", code: "game:metalplate-*",
-						name: "metal", allowedVariants: [
-					"steel",
-					"meteoriciron",
-					"iron"
-				]
-			},
-			"L": { type: "item", code: "game:leather-normal-plain"
-			}
-		},
-		width: 2,
-		height: 2,
-		shapeless: true,
-		copyAttributesFrom: 'B',
-		averageDurability: false,
-		name: "Templar Legs Heavy Repair",
-		output: { type: "item", code: "fa-templar-legs-heavy-{metal}-none"
-		}
-	},
+	}
 ]

@@ -1,24 +1,8 @@
 [
 	{
-		ingredientPattern: "ABA,DED,G_I",
+		ingredientPattern: "_B_,DED,G_I",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
-					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
-				], quantity: 2
-			},
 			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-steel"
@@ -33,11 +17,42 @@
 		width: 3,
 		height: 3,
 		name: "templar steel balance body",
-		output: { type: "item", code: "fa-templar-body-balance-steel-{color}"
+		output: { type: "item", code: "fa-templar-body-balance-steel-none"
 		}
 	},
 	{
-		ingredientPattern: "ABA,DED,G_I",
+		ingredientPattern: "_B_,DED,G_I",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			},
+			"D": { type: "item", code: "game:metalplate-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"E": { type: "item", code: "game:armor-body-scale-*", 
+					name: "metal",
+					allowedVariants: [
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 6
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "templar steel balance body",
+		output: { type: "item", code: "fa-templar-body-balance-{metal}-none"
+		}
+	},
+	{
+		ingredientPattern: "A_A,_E_,_G_",
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", code: "game:cloth-*", name: "color", 
@@ -56,58 +71,107 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"E": { type: "item", code: "fa-templar-body-balance-*-none", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"D": { type: "item", code: "game:metalplate-meteoriciron"
-			},
-			"E": { type: "item", code: "game:armor-body-scale-meteoriciron"
-			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 6
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			}
 		},
 		width: 3,
 		height: 3,
 		name: "templar meteoriciron balance body",
-		output: { type: "item", code: "fa-templar-body-balance-meteoriciron-{color}"
+		output: { type: "item", code: "fa-templar-body-balance-{metal}-{color}"
 		}
 	},
 	{
-		ingredientPattern: "ABA,DED,G_I",
+		ingredientPattern: "AB,_G",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "game:cloth-*", name: "color", 
+			"A": { type: "item", 
+					code: "game:armor-body-hide-bear-*",
+					name: "bear",
 					allowedVariants: [
-					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
 					"black",
-					"white"
-				], quantity: 2
+					"brown",
+					"polar"
+				]
 			},
-			"B": { type: "item", code: "fa-templar-schematic", returnedStack: { "type": "item", "code": "fa-templar-schematic" }
+			"B": { type: "item", code: "fa-templar-body-balance-*-none", name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
-			"D": { type: "item", code: "game:metalplate-iron"
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "templar plate body",
+		output: { type: "item", code: "fa-templar-body-balance-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-balance-steel-*"
 			},
-			"E": { type: "item", code: "game:armor-body-scale-iron"
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
-			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 6
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
 			}
 		},
 		width: 3,
-		height: 3,
-		name: "templar iron balance body",
-		output: { type: "item", code: "fa-templar-body-balance-iron-{color}"
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-balance-steel-none"
 		}
 	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-balance-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-balance-meteoriciron-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-templar-body-balance-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "templar steel plate body deplume",
+		output: { type: "item", code: "fa-templar-body-balance-iron-none"
+		}
+	}
 ]

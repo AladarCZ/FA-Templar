@@ -1,0 +1,234 @@
+{
+	"editor": {
+		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"collapsedPaths": "Root/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP3/Plume22,Root/ArmorHelmet/SideDecorationCrown/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2/legdown2,Root/ArmorHelmet/TopDecorationLion/hand2,Root/ArmorHelmet/TopDecorationLion/hand1,Root/ArmorHelmet/SideDecorationCrown/CrownRight,Root/SideDecorationCrown,Root/ArmorHelmet/Plume/Plume12,Root/ArmorHelmet/ArmorNose,Root/ArmorHelmet/TopDecorationLion/hand1/forearm1,Root/ArmorHelmet/lining,Root/TopDecorationLion/hand1,Root/ArmorHelmet/TopDecorationLion/Tail,Root/ArmorHelmet/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase,Root/TopDecorationLion/hand2,Root/TopDecorationLion/Head,Root/ArmorHelmet/Plume/Plume4,Root/ArmorHelmet/Plume/Plume3,Root/ArmorHelmet/HeadDecCrownBase/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/leg1,Root/ArmorHelmet/Plume/Plume21,Root/ArmorHelmet/FaceCoverR1/WreathCenter/Cube29,Root/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/hand2/forearm2,Root/ArmorHelmet/TopDecorationLion/Head,Root/ArmorHelmet/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP2,Root/ArmorHelmet/TopDecorationLion/Bottomtop,Root/ArmorHelmet/Plume/Plume3/Plume4,Root/TopDecorationLion,Root/ArmorHelmet/TopDecorationLion/Head/Nose,Root/ArmorHelmet/HeadDecCrownBase/CrownFront3,Root/SideDecorationCrown/CrownRight,Root/ArmorHelmet/Plume/Plume21/Plume22,Root/ArmorHelmet/HeadDecCrownBase/CrownFront4,Root/ArmorHelmet/PlumeP1/Plume4,Root/ArmorHelmet/TopDecorationLion/leg1/legdown1,Root/ArmorHelmet/WreathCenter,Root/ArmorHelmet/HeadDecCrownBase/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownFront2,Root/ArmorHelmet/Fin,Root/ArmorHelmet/Hinge1,Root/ArmorHelmet/HeadDecCrownBase/CrownFront,Root/ArmorHelmet/Hinge4,Root/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownRight,Root/ArmorHelmet/HeadDecCrownBase/CrownRight2,Root/ArmorHelmet/PlumeBase,Root/SideDecorationCrown/CrownFront4,Root/SideDecorationCrown/CrownFront3,Root/SideDecorationCrown/CrownFront2",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+			"templarhead": "armor/entity/templar_helmets_steel"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ -0.5, 3.9, -0.6 ],
+			"to": [ 6.5, 5.9, 5.5 ],
+			"autoUnwrap": false,
+			"uv": [ 27.0, 14.0 ],
+			"rotationOrigin": [ -0.5, 3.9, -0.6 ],
+			"faces": {
+				"north": { "texture": "#templarhead", "uv": [ 26.5, 24.5, 33.5, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"east": { "texture": "#templarhead", "uv": [ 45.5, 24.5, 51.5, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"south": { "texture": "#templarhead", "uv": [ 38.5, 24.5, 45.5, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"west": { "texture": "#templarhead", "uv": [ 33.0, 26.5, 39.0, 28.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"up": { "texture": "#templarhead", "uv": [ 33.0, 20.5, 39.0, 27.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#templarhead", "uv": [ 33.0, 26.0, 39.0, 33.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+			},
+			"children": [
+				{
+					"name": "ArmorHelmetTop",
+					"from": [ 0.3, 2.0, 0.1 ],
+					"to": [ 6.9, 2.4, 6.0 ],
+					"unwrapMode": 4,
+					"autoUnwrap": false,
+					"uv": [ 23.5, 7.5 ],
+					"rotationOrigin": [ 0.3, 2.0, 0.1 ],
+					"faces": {
+						"north": { "texture": "#templarhead", "uv": [ 40.0, 21.0, 46.5, 21.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#templarhead", "uv": [ 40.5, 22.0, 46.0, 22.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#templarhead", "uv": [ 40.0, 22.0, 46.5, 22.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#templarhead", "uv": [ 33.5, 19.5, 39.0, 20.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#templarhead", "uv": [ 33.0, 14.0, 39.0, 20.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					},
+					"children": [
+						{
+							"name": "Cube2",
+							"from": [ -0.5, -5.0, 2.5 ],
+							"to": [ -0.1, -2.0, 3.4 ],
+							"uv": [ 31.0, 21.0 ],
+							"rotationOrigin": [ -0.5, -5.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#templarhead", "uv": [ 31.0, 21.5, 31.5, 24.5 ] },
+								"east": { "texture": "#templarhead", "uv": [ 31.5, 21.5, 32.0, 24.5 ] },
+								"south": { "texture": "#templarhead", "uv": [ 32.0, 21.5, 32.5, 24.5 ] },
+								"west": { "texture": "#templarhead", "uv": [ 32.5, 21.5, 33.0, 24.5 ] },
+								"up": { "texture": "#templarhead", "uv": [ 31.0, 21.0, 31.5, 21.5 ] },
+								"down": { "texture": "#templarhead", "uv": [ 31.5, 21.0, 32.0, 21.5 ] }
+							},
+							"children": [
+								{
+									"name": "Cube3",
+									"from": [ 0.1, 0.5, -0.2 ],
+									"to": [ 0.5, 1.1, 1.1 ],
+									"uv": [ 7.0, 23.0 ],
+									"rotationOrigin": [ 0.1, 0.5, -0.2 ],
+									"faces": {
+										"north": { "texture": "#templarhead", "uv": [ 7.0, 24.0, 7.5, 24.5 ] },
+										"east": { "texture": "#templarhead", "uv": [ 7.5, 24.0, 8.5, 24.5 ] },
+										"south": { "texture": "#templarhead", "uv": [ 8.5, 24.0, 9.0, 24.5 ] },
+										"west": { "texture": "#templarhead", "uv": [ 9.0, 24.0, 10.0, 24.5 ] },
+										"up": { "texture": "#templarhead", "uv": [ 7.0, 23.0, 7.5, 24.0 ] },
+										"down": { "texture": "#templarhead", "uv": [ 7.5, 23.0, 8.0, 24.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "Cube4",
+							"from": [ -0.4, -2.7, 0.5 ],
+							"to": [ 0.0, -1.8, 5.4 ],
+							"autoUnwrap": false,
+							"uv": [ 43.5, 33.5 ],
+							"rotationOrigin": [ -0.4, -2.7, 0.5 ],
+							"faces": {
+								"north": { "texture": "#templarhead", "uv": [ 43.5, 38.0, 44.0, 38.5 ] },
+								"east": { "texture": "#templarhead", "uv": [ 23.5, 31.0, 28.0, 31.5 ] },
+								"south": { "texture": "#templarhead", "uv": [ 48.5, 38.0, 49.0, 38.5 ] },
+								"west": { "texture": "#templarhead", "uv": [ 23.0, 30.8, 28.0, 31.4 ], "autoUv": false },
+								"up": { "texture": "#templarhead", "uv": [ 43.5, 33.5, 44.0, 38.0 ] },
+								"down": { "texture": "#templarhead", "uv": [ 44.0, 33.5, 44.5, 38.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "ArmorNeck1",
+					"from": [ 1.5492, -5.6701, 1.3 ],
+					"to": [ 5.1492, -3.8701, 4.9 ],
+					"unwrapMode": 4,
+					"uv": [ 5.5, 26.5 ],
+					"rotationOrigin": [ 1.5492, -3.6701, 1.3 ],
+					"rotationZ": 7.0,
+					"faces": {
+						"north": { "texture": "#templarhead", "uv": [ 5.5, 26.5, 9.0, 28.0 ] },
+						"east": { "texture": "#templarhead", "uv": [ 16.0, 26.5, 19.5, 28.0 ] },
+						"south": { "texture": "#templarhead", "uv": [ 12.5, 26.5, 16.0, 28.0 ] },
+						"west": { "texture": "#templarhead", "uv": [ 9.0, 26.5, 12.5, 28.0 ] }
+					}
+				},
+				{
+					"name": "Plume",
+					"from": [ 0.3, -3.2, 0.2 ],
+					"to": [ 0.3, -3.2, 0.2 ],
+					"autoUnwrap": false,
+					"uv": [ 53.5, 46.0 ],
+					"rotationOrigin": [ 0.3, -3.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#templarhead", "uv": [ 44.5, 51.0, 45.0, 51.5 ] },
+						"east": { "texture": "#templarhead", "uv": [ 48.0, 51.0, 48.5, 51.5 ] },
+						"south": { "texture": "#templarhead", "uv": [ 44.5, 49.0, 50.5, 52.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#templarhead", "uv": [ 48.0, 49.0, 48.5, 49.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#templarhead", "uv": [ 47.5, 44.0, 48.0, 44.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#templarhead", "uv": [ 44.5, 44.0, 45.0, 44.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "InnerCowl2",
+					"from": [ 0.2, -5.2, 0.04 ],
+					"to": [ 6.4, 0.1, 6.04 ],
+					"autoUnwrap": false,
+					"uv": [ 53.5, 46.0 ],
+					"rotationOrigin": [ 0.2, -5.2, 0.1 ],
+					"faces": {
+						"north": { "texture": "#templarhead", "uv": [ 44.5, 51.0, 50.5, 56.0 ] },
+						"east": { "texture": "#templarhead", "uv": [ 48.0, 49.5, 54.0, 54.5 ] },
+						"south": { "texture": "#templarhead", "uv": [ 44.5, 49.0, 50.5, 52.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#templarhead", "uv": [ 33.5, 50.5, 39.0, 55.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#templarhead", "uv": [ 47.5, 44.0, 53.5, 50.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#templarhead", "uv": [ 44.5, 44.0, 50.5, 50.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "ArmorHelmet2",
+					"from": [ 0.1, 0.0, 0.0 ],
+					"to": [ 6.9, 2.0, 1.1 ],
+					"unwrapMode": 1,
+					"uv": [ 1.5, 31.5 ],
+					"rotationOrigin": [ 0.1, 0.0, 0.0 ],
+					"rotationX": -20.0,
+					"faces": {
+						"north": { "texture": "#templarhead", "uv": [ 2.5, 32.5, 9.0, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#templarhead", "uv": [ 1.5, 32.5, 2.5, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+						"south": { "texture": "#templarhead", "uv": [ 10.0, 32.5, 16.5, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#templarhead", "uv": [ 9.0, 32.5, 10.0, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#templarhead", "uv": [ 2.5, 31.5, 9.0, 32.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#templarhead", "uv": [ 2.5, 34.5, 9.0, 35.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					},
+					"children": [
+						{
+							"name": "ArmorHelmet3",
+							"from": [ 0.0, -2.0863, 4.6321 ],
+							"to": [ 6.8, -0.0863, 5.7321 ],
+							"unwrapMode": 1,
+							"uv": [ 1.5, 31.5 ],
+							"rotationOrigin": [ 0.0, -2.0863, 5.7321 ],
+							"rotationX": 40.0,
+							"faces": {
+								"north": { "texture": "#templarhead", "uv": [ 2.5, 32.5, 9.0, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#templarhead", "uv": [ 1.5, 32.5, 2.5, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+								"south": { "texture": "#templarhead", "uv": [ 10.0, 32.5, 16.5, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#templarhead", "uv": [ 9.0, 32.5, 10.0, 34.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#templarhead", "uv": [ 2.5, 31.5, 9.0, 32.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#templarhead", "uv": [ 2.5, 34.5, 9.0, 35.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							}
+						},
+						{
+							"name": "ArmorHelmet4",
+							"from": [ -0.1, -0.0342, 0.094 ],
+							"to": [ 1.0, 1.9658, 5.994 ],
+							"uv": [ 2.0, 38.5 ],
+							"rotationOrigin": [ -0.1, -0.0342, 0.094 ],
+							"rotationX": 20.0,
+							"rotationZ": 20.0,
+							"faces": {
+								"north": { "texture": "#templarhead", "uv": [ 2.0, 39.5, 3.0, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#templarhead", "uv": [ 3.0, 39.5, 8.5, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+								"south": { "texture": "#templarhead", "uv": [ 8.5, 39.5, 9.5, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#templarhead", "uv": [ 9.5, 39.5, 15.0, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#templarhead", "uv": [ 2.0, 38.5, 7.5, 39.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#templarhead", "uv": [ 7.5, 38.5, 13.0, 39.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							}
+						},
+						{
+							"name": "ArmorHelmet5",
+							"from": [ 5.8, -0.0342, 0.094 ],
+							"to": [ 6.9, 1.9658, 5.994 ],
+							"uv": [ 2.0, 38.5 ],
+							"rotationOrigin": [ 6.9, -0.0342, 0.094 ],
+							"rotationX": 20.0,
+							"rotationZ": -20.0,
+							"faces": {
+								"north": { "texture": "#templarhead", "uv": [ 2.0, 39.5, 3.0, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#templarhead", "uv": [ 3.0, 39.5, 8.5, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+								"south": { "texture": "#templarhead", "uv": [ 8.5, 39.5, 9.5, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#templarhead", "uv": [ 9.5, 39.5, 15.0, 41.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#templarhead", "uv": [ 2.0, 38.5, 7.5, 39.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#templarhead", "uv": [ 7.5, 38.5, 13.0, 39.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "InnerCowl3",
+					"from": [ 0.1, -5.1, -0.2 ],
+					"to": [ 6.7, -4.2, 6.28 ],
+					"autoUnwrap": false,
+					"uv": [ 43.0, 44.0 ],
+					"rotationOrigin": [ 0.1, -5.1, -0.2 ],
+					"faces": {
+						"north": { "texture": "#templarhead", "uv": [ 43.0, 50.0, 49.5, 50.5 ] },
+						"east": { "texture": "#templarhead", "uv": [ 44.5, 52.5, 50.5, 53.0 ] },
+						"south": { "texture": "#templarhead", "uv": [ 47.0, 52.5, 53.5, 53.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#templarhead", "uv": [ 45.5, 53.0, 51.5, 53.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#templarhead", "uv": [ 43.0, 44.0, 49.5, 50.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#templarhead", "uv": [ 49.5, 44.0, 56.0, 50.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		}
+	]}

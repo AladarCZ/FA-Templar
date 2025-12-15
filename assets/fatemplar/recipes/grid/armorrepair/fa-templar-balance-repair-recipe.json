@@ -3,66 +3,6 @@
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-pothelmheavy-steel-none",  
-			},
-			"P": { type: "item", code: "game:metalscale-steel"
-			},
-			"L": { type: "item", code: "game:leather-normal-plain"
-			}
-		},
-		width: 2,
-		height: 2,
-		shapeless: true,
-		copyAttributesFrom: 'B',
-		averageDurability: false,
-		name: "Templar pothelmheavy repair",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-steel-none"
-		}
-	},
-	{
-		ingredientPattern: "BL,P_",
-		recipeGroup: 2,
-		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-pothelmheavy-meteoriciron-none",  
-			},
-			"P": { type: "item", code: "game:metalscale-meteoriciron"
-			},
-			"L": { type: "item", code: "game:leather-normal-plain"
-			}
-		},
-		width: 2,
-		height: 2,
-		shapeless: true,
-		copyAttributesFrom: 'B',
-		averageDurability: false,
-		name: "Templar pothelmheavy repair",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-meteoriciron-none"
-		}
-	},
-	{
-		ingredientPattern: "BL,P_",
-		recipeGroup: 2,
-		ingredients: {
-			"B": { type: "item", code: "fa-templar-head-pothelmheavy-iron-none",  
-			},
-			"P": { type: "item", code: "game:metalscale-iron"
-			},
-			"L": { type: "item", code: "game:leather-normal-plain"
-			}
-		},
-		width: 2,
-		height: 2,
-		shapeless: true,
-		copyAttributesFrom: 'B',
-		averageDurability: false,
-		name: "Templar pothelmheavy repair",
-		output: { type: "item", code: "fa-templar-head-pothelmheavy-iron-none"
-		}
-	},
-	{
-		ingredientPattern: "BL,P_",
-		recipeGroup: 2,
-		ingredients: {
 			"B": { type: "item", code: "fa-templar-head-pothelmheavy-steel-*",  
 						name: "color", allowedVariants: [
 					"plain",
@@ -77,7 +17,10 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-steel"
@@ -112,7 +55,10 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-meteoriciron"
@@ -147,7 +93,10 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-iron"
@@ -181,7 +130,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-steel"
@@ -215,7 +168,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-meteoriciron"
@@ -249,7 +206,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-iron"
@@ -273,17 +234,9 @@
 			"B": { type: "item", code: "fa-templar-legs-balance-steel-*",  
 						name: "color", allowedVariants: [
 					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-steel"
@@ -307,17 +260,9 @@
 			"B": { type: "item", code: "fa-templar-legs-balance-meteoriciron-*",  
 						name: "color", allowedVariants: [
 					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-meteoriciron"
@@ -341,17 +286,9 @@
 			"B": { type: "item", code: "fa-templar-legs-balance-iron-*",  
 						name: "color", allowedVariants: [
 					"plain",
-					"blue",
-					"red",
-					"yellow",
-					"green",
-					"purple",
-					"pink",
-					"orange",
-					"brown",
-					"gray",
-					"black",
-					"white"
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalscale-iron"
