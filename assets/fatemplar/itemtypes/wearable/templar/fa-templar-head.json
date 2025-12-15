@@ -151,7 +151,15 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorytemplar": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*": 6000,
+		"*-greathelm*-iron-*": 7700,
+		"*-greathelm*-meteoriciron-*": 8300,
+		"*-greathelm*-steel-*": 11000,
+		"*-pothelmheavy-iron-*": 4500,
+		"*-pothelmheavy-meteoriciron-*": 6000,
+		"*-pothelmheavy-steel-*": 7000,
+		"*-pothelmlight-iron-*": 3000,
+		"*-pothelmlight-meteoriciron-*": 3500,
+		"*-pothelmlight-steel-*": 4000
 	},
 	"fpHandTransformByType": {
 		"*": {

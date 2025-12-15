@@ -212,7 +212,15 @@
 	},
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*": 12000,
+		"*-heavy-iron-*": 7700,
+		"*-heavy-meteoriciron-*": 8300,
+		"*-heavy-steel-*": 11000,
+		"*-balance-iron-*": 4500,
+		"*-balance-meteoriciron-*": 6000,
+		"*-balance-steel-*": 7000,
+		"*-light-iron-*": 3000,
+		"*-light-meteoriciron-*": 3500,
+		"*-light-steel-*": 4000
 	},
 	"fpHandTransformByType": {
 		"*": {
