@@ -24,7 +24,7 @@
 			"rotationOrigin": [ -0.6, 4.1, -0.7 ],
 			"faces": {
 				"north": { "texture": "#templarhead", "uv": [ 26.5, 24.5, 33.5, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"east": { "texture": "#templarhead", "uv": [ 45.5, 24.5, 52.0, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"east": { "texture": "#templarhead", "uv": [ 45.0, 24.5, 51.5, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
 				"south": { "texture": "#templarhead", "uv": [ 38.5, 24.5, 45.5, 26.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 				"west": { "texture": "#templarhead", "uv": [ 33.0, 21.0, 39.5, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 				"up": { "texture": "#templarhead", "uv": [ 33.0, 20.5, 39.5, 27.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
