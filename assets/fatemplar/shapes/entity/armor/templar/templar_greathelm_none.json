@@ -8,9 +8,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"plain": [64,64]
 	},
 	"textures": {
+			"templarhead": "armor/entity/templar_helmets_{metalhead}",
+			"plume": "block/plume/plume{plume}"
 	},
 	"elements": [
 		{

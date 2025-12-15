@@ -7,11 +7,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"steel": [64,64],
-		"templarbody": [64,64],
-		"textile": [64,64]
 	},
 	"textures": {
+		"templarbody": "armor/entity/templar_{type}_{metalbody}",
+		"textile": "block/textiles/textile{textile}"
 	},
 	"elements": [
 		{

@@ -8,10 +8,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"schematic-templar": [16,16]
 	},
 	"textures": {
-		"schematic-templar": "utility/schematic-templar"
+		"templarbody": "armor/entity/templar_{type}_{metalbody}",
+		"textile": "block/textiles/textile{textile}"
 	},
 	"elements": [
 		{

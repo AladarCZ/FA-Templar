@@ -7,9 +7,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"templarlegs": [64,64]
 	},
 	"textures": {
+			"templarlegs": "armor/entity/templar_{look}_{metallegs}",
+			"line": "block/lines/line{line}"
 	},
 	"elements": [
 		{
