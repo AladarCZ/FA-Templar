@@ -129,13 +129,13 @@
 			},
 			"*-balance-steel-*": {
 				relativeProtection: 0.92,
-				flatDamageReduction: 3.6,
+				flatDamageReduction: 2.6,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-heavy-steel-*": {
 				relativeProtection: 0.97,
-				flatDamageReduction: 3.5,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
@@ -147,13 +147,13 @@
 			},
 			"*-balance-meteoriciron-*": {
 				relativeProtection: 0.91,
-				flatDamageReduction: 3.5,
+				flatDamageReduction: 2.55,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-heavy-meteoriciron-*": {
 				relativeProtection: 0.962,
-				flatDamageReduction: 3.4,
+				flatDamageReduction: 2.95,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
@@ -165,13 +165,13 @@
 			},
 			"*-balance-iron-*": {
 				relativeProtection: 0.91,
-				flatDamageReduction: 3.4,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-heavy-iron-*": {
 				relativeProtection: 0.96,
-				flatDamageReduction: 3.35,
+				flatDamageReduction: 2.9,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			}
@@ -192,9 +192,9 @@
 				hungerrate: 0.06
 			},
 			"*-heavy-*bear*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.17,
+				rangedWeaponsAcc: -0.3,
+				rangedWeaponsSpeed: -0.35,
+				walkSpeed: -0.18,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
 			},
@@ -213,9 +213,9 @@
 				hungerrate: 0.06
 			},
 			"*-heavy-*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.15,
+				rangedWeaponsAcc: -0.3,
+				rangedWeaponsSpeed: -0.35,
+				walkSpeed: -0.16,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
 			}
@@ -234,14 +234,14 @@
 	},
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*-heavy-iron-*": 7700,
-		"*-heavy-meteoriciron-*": 8300,
+		"*-heavy-iron-*": 4400,
+		"*-heavy-meteoriciron-*": 5600,
 		"*-heavy-steel-*": 11000,
-		"*-balance-iron-*": 4500,
-		"*-balance-meteoriciron-*": 6000,
+		"*-balance-iron-*": 2800,
+		"*-balance-meteoriciron-*": 3400,
 		"*-balance-steel-*": 7000,
-		"*-light-iron-*": 3000,
-		"*-light-meteoriciron-*": 3500,
+		"*-light-iron-*": 1600,
+		"*-light-meteoriciron-*": 1800,
 		"*-light-steel-*": 4000
 	},
 	"fpHandTransformByType": {

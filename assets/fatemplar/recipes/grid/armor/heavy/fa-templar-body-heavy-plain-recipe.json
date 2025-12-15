@@ -9,7 +9,7 @@
 			},
 			"E": { type: "item", code: "game:armor-body-plate-steel"
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 6
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 6
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},

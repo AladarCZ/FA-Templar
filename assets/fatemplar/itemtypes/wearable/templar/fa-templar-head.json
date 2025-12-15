@@ -186,13 +186,13 @@
 			},
 			"*-pothelmheavy-steel-*": {
 				relativeProtection: 0.92,
-				flatDamageReduction: 3.6,
+				flatDamageReduction: 2.6,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-greathelm*-steel-*": {
 				relativeProtection: 0.97,
-				flatDamageReduction: 3.5,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
@@ -204,13 +204,13 @@
 			},
 			"*-pothelmheavy-meteoriciron-*": {
 				relativeProtection: 0.91,
-				flatDamageReduction: 3.5,
+				flatDamageReduction: 2.55,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-greathelm*-meteoriciron-*": {
 				relativeProtection: 0.962,
-				flatDamageReduction: 3.4,
+				flatDamageReduction: 2.95,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
@@ -222,13 +222,13 @@
 			},
 			"*-pothelmheavy-iron-*": {
 				relativeProtection: 0.91,
-				flatDamageReduction: 3.4,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-greathelm*-iron-*": {
 				relativeProtection: 0.96,
-				flatDamageReduction: 3.35,
+				flatDamageReduction: 2.9,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			}
@@ -251,7 +251,7 @@
 			"*-greathelm*-*bear*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.17,
+				walkSpeed: -0.18,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
 			},
@@ -272,7 +272,7 @@
 			"*-greathelm*-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.15,
+				walkSpeed: -0.16,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
 			}
@@ -299,14 +299,14 @@
 	},
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*-greathelm*-iron-*": 7700,
-		"*-greathelm*-meteoriciron-*": 8300,
+		"*-greathelm*-iron-*": 4400,
+		"*-greathelm*-meteoriciron-*": 5600,
 		"*-greathelm*-steel-*": 11000,
-		"*-pothelmheavy-iron-*": 4500,
-		"*-pothelmheavy-meteoriciron-*": 6000,
+		"*-pothelmheavy-iron-*": 2800,
+		"*-pothelmheavy-meteoriciron-*": 3400,
 		"*-pothelmheavy-steel-*": 7000,
-		"*-pothelmlight-iron-*": 3000,
-		"*-pothelmlight-meteoriciron-*": 3500,
+		"*-pothelmlight-iron-*": 1600,
+		"*-pothelmlight-meteoriciron-*": 1800,
 		"*-pothelmlight-steel-*": 4000
 	},
 	"fpHandTransformByType": {

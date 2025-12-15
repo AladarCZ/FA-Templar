@@ -3,7 +3,7 @@
 		ingredientPattern: "_B_,DED,GHI",
 		recipeGroup: 1,
 		ingredients: {
-			"B": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 4
+			"B": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 4
 			},
 			"D": { type: "item", code: "game:metalplate-steel"
 			},
