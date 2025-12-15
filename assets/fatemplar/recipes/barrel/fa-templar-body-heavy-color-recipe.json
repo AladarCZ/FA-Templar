@@ -16,13 +16,10 @@
                     "pink"
                 ]
             },
-            { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", allowedVariants: [
-                    "steel",
-                    "meteoriciron",
-                ]
+            { type: "item", code: "fa-templar-body-heavy-steel-plain"
             }
         ],
-		output: { type: "item", code: "fa-templar-body-heavy-{metal}-{color}", stackSize: 1
+		output: { type: "item", code: "fa-templar-body-heavy-steel-{color}", stackSize: 1
         }
     },
     {
@@ -31,13 +28,10 @@
 		ingredients: [
             { type: "item", code: "game:dye-woad", litres: 20, consumelitres: 20, 
             },
-            { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", allowedVariants: [
-                    "steel",
-                    "meteoriciron"
-                ]
+            { type: "item", code: "fa-templar-body-heavy-steel-plain"
             }
         ],
-		output: { type: "item", code: "fa-templar-body-heavy-{metal}-blue", stackSize: 1
+		output: { type: "item", code: "fa-templar-body-heavy-steel-blue", stackSize: 1
         }
     },
     {
@@ -46,17 +40,61 @@
 		ingredients: [
             { type: "item", code: "game:strongtanninportion", litres: 20, consumelitres: 20, 
             },
-            { type: "item", code: "fa-templar-body-heavy-*-plain", name: "metal", allowedVariants: [
-                    "steel",
-                    "meteoriciron"
-                ]
+            { type: "item", code: "fa-templar-body-heavy-steel-plain"
             }
         ],
-		output: { type: "item", code: "fa-templar-body-heavy-{metal}-brown", stackSize: 1
+		output: { type: "item", code: "fa-templar-body-heavy-steel-brown", stackSize: 1
         }
     },
     {
-		code: "fa-templar-body-steel-colored",
+		code: "fa-templar-body-meteoriciron-colored",
+        sealHours: 0,
+		ingredients: [
+            { type: "item", code: "game:dye-*", name: "color", litres: 20, consumelitres: 20, allowedVariants: [
+                    "orange",
+                    "black",
+                    "red",
+                    "blue",
+                    "green",
+                    "yellow",
+                    "white",
+                    "gray",
+                    "purple",
+                    "pink"
+                ]
+            },
+            { type: "item", code: "fa-templar-body-heavy-meteoriciron-plain"
+            }
+        ],
+		output: { type: "item", code: "fa-templar-body-heavy-meteoriciron-{color}", stackSize: 1
+        }
+    },
+    {
+		code: "fa-templar-body-meteoriciron-colored",
+        sealHours: 0,
+		ingredients: [
+            { type: "item", code: "game:dye-woad", litres: 20, consumelitres: 20, 
+            },
+            { type: "item", code: "fa-templar-body-heavy-meteoriciron-plain"
+            }
+        ],
+		output: { type: "item", code: "fa-templar-body-heavy-meteoriciron-blue", stackSize: 1
+        }
+    },
+    {
+		code: "fa-templar-body-meteoriciron-colored",
+        sealHours: 0,
+		ingredients: [
+            { type: "item", code: "game:strongtanninportion", litres: 20, consumelitres: 20, 
+            },
+            { type: "item", code: "fa-templar-body-heavy-meteoriciron-plain"
+            }
+        ],
+		output: { type: "item", code: "fa-templar-body-heavy-meteoriciron-brown", stackSize: 1
+        }
+    },
+    {
+		code: "fa-templar-body-meteoriciron-decolored",
         sealHours: 0,
 		ingredients: [
             { type: "item", code: "game:sulfate-full-chromite", litres: 5, consumelitres: 5 
@@ -79,7 +117,7 @@
         }
     },
     {
-		code: "fa-templar-body-steel-colored",
+		code: "fa-templar-body-steel-decolored",
         sealHours: 0,
 		ingredients: [
             { type: "item", code: "game:sulfate-full-chromite", litres: 5, consumelitres: 5 
