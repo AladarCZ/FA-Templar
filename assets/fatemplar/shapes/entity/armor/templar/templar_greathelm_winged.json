@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "D:/Hry/Vintagestory120/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
 		"collapsedPaths": ",Root/ArmorHelmet/ArmorHelmetTop/WingBaseR/WingR2/WingR14,Root/ArmorHelmet/ArmorHelmetTop/WingBaseR/WingR2,Root/ArmorHelmet/ArmorHelmetTop/WingBaseR/WingR2/WingR3/WingR4,Root/ArmorHelmet/ArmorHelmetTop/WingBaseR2,Root/ArmorHelmet/ArmorHelmetTop/WingBaseR/WingR2/WingR9,Root/ArmorHelmet/ArmorHelmetTop/WingBaseR/WingR2/WingR3/WingR4/WingR5,Root/ArmorHelmet/ArmorHelmetTop/WingBaseR/WingR2/WingR3",
 		"allAngles": true,
 		"entityTextureMode": true
@@ -18,11 +18,11 @@
 		{
 			"name": "ArmorHelmet",
 			"stepParentName": "Head",
-			"from": [ -0.4, 0.0, -0.5 ],
-			"to": [ 5.9, 6.3, 5.8 ],
+			"from": [ -0.4, 0.0, -0.6 ],
+			"to": [ 5.9, 6.3, 5.7 ],
 			"unwrapMode": 4,
 			"uv": [ 27.0, 14.5 ],
-			"rotationOrigin": [ -0.4, 0.0, -0.5 ],
+			"rotationOrigin": [ -0.4, 0.0, -0.6 ],
 			"faces": {
 				"north": { "texture": "#templarhead", "uv": [ 27.0, 20.5, 33.0, 26.5 ] },
 				"east": { "texture": "#templarhead", "uv": [ 45.0, 20.5, 51.0, 26.5 ] },

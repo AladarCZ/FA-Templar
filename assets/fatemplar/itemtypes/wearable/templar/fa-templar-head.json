@@ -3,41 +3,34 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "style",  "states": ["greathelmwinged", "greathelm", "greathelmwreath", "pothelmheavy", "pothelmlight"] },
+		{ "code": "style",  "states": ["greathelmwinged", "greathelm", "greathelmwreath", "greathelmcrista", "pothelmheavy", "pothelmlight"] },
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
 		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
 	],
 	"allowedVariants": [
 		"fa-templar-head-greathelmwinged-*",
 		"fa-templar-head-greathelmwreath-*",
+		"fa-templar-head-greathelmcrista-*",
 		"fa-templar-head-greathelm-*-plain",
 		"fa-templar-head-pothelmheavy-*",
 		"fa-templar-head-pothelmlight-*-plain"
 	],
 	"skipVariants": [
 		"fa-templar-head-greathelmwinged-*-none",
-		"fa-templar-head-greathelmwreath-*-none"
+		"fa-templar-head-greathelmwreath-*-none",
+		"fa-templar-head-greathelmcrista-*-none"
 	],
 	"shapeByType": 
 	{
 		"fa-templar-head-greathelm-*-plain": { "base": "entity/armor/templar/templar_greathelm_none" },
 		"fa-templar-head-greathelmwinged-*": { "base": "entity/armor/templar/templar_greathelm_winged" },
 		"fa-templar-head-greathelmwreath-*": { "base": "entity/armor/templar/templar_greathelm_wreath" },
+		"fa-templar-head-greathelmcrista-*": { "base": "entity/armor/templar/templar_greathelm_crista" },
 		"fa-templar-head-pothelmheavy-*": { "base": "entity/armor/templar/templar_pothelm_heavy" },
 		"fa-templar-head-pothelmlight-*-plain": { "base": "entity/armor/templar/templar_pothelm_light" }
 	},
 	"texturesByType": {
-		"fa-templar-head-greathelmwinged-*": { 
-			"seraph": { "base": "game:block/transparent" },
-			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
-			"plume": { "base": "block/plume/plume{plume}" }
-				},
-		"fa-templar-head-greathelmwreath-*": { 
-			"seraph": { "base": "game:block/transparent" },
-			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
-			"plume": { "base": "block/plume/plume{plume}" }
-				},
-		"fa-templar-head-greathelm-*-plain": { 
+		"fa-templar-head-greathelm*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"templarhead": { "base": "armor/entity/templar_helmets_{metalhead}" },
 			"plume": { "base": "block/plume/plume{plume}" }
@@ -135,14 +128,14 @@
 			"*-pothelmheavy-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.09,
+				walkSpeed: -0.07,
 				healingeffectivness: -0.05,
 				hungerrate: 0.05
 			},
 			"*-greathelm*-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.16,
+				walkSpeed: -0.14,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
 			},

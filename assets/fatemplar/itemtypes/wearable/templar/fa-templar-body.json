@@ -191,14 +191,14 @@
 			"*-balance-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.09,
+				walkSpeed: -0.07,
 				healingeffectivness: -0.05,
 				hungerrate: 0.05
 			},
 			"*-heavy-*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
-				walkSpeed: -0.16,
+				walkSpeed: -0.14,
 				healingeffectivness: -0.1,
 				hungerrate: 0.1
 			},

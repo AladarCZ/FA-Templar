@@ -1,0 +1,232 @@
+[
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-templar-head-greathelm*-steel-*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Head",
+              "Neck",
+              "Face"
+            ],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.15,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-head-greathelm*-*iron-*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Head",
+              "Neck",
+              "Face"
+            ],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.15,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-head-pothelmheavy-steel-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Head",
+              "Neck",
+              "Face"
+            ],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 8,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-head-pothelmheavy-*iron-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Head",
+              "Neck",
+              "Face"
+            ],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 7,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-head-pothelmlight-steel-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Head",
+              "Neck",
+              "Face"
+            ],
+            "Resists": {
+              "PiercingAttack": 3,
+              "SlashingAttack": 6,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-head-pothelmlight-*iron-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Head",
+              "Neck",
+              "Face"
+            ],
+            "Resists": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 5,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          }
+        }
+      },
+    ]
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "value": {
+      "fa-templar-head-greathelm*-steel-*": 22000,
+      "fa-templar-head-greathelm*-meteoriciron-*": 13000,
+      "fa-templar-head-greathelm*-iron-*": 9000,
+      "fa-templar-head-pothelmheavy-steel-*": 13000,
+      "fa-templar-head-pothelmheavy-meteoriciron-*": 10000,
+      "fa-templar-head-pothelmheavy-iron-*": 6500,
+      "fa-templar-head-pothelmlight-steel-*": 8000,
+      "fa-templar-head-pothelmlight-meteoriciron-*": 5000,
+      "fa-templar-head-pothelmlight-iron-*": 3200,
+    }
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": {
+      "*": null
+    }
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": {
+      "*": null
+    }
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": {
+      "*-head-*": 8
+    }
+  },
+]

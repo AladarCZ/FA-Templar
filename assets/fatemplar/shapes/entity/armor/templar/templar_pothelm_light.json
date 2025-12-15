@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "D:/Hry/Vintagestory120/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"backDropShape": "D:/Hry/Vintagestory121/assets/game/shapes/entity/humanoid/seraph-hairless",
 		"collapsedPaths": "Root/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP3/Plume22,Root/ArmorHelmet/SideDecorationCrown/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2/legdown2,Root/ArmorHelmet/TopDecorationLion/hand2,Root/ArmorHelmet/TopDecorationLion/hand1,Root/ArmorHelmet/SideDecorationCrown/CrownRight,Root/SideDecorationCrown,Root/ArmorHelmet/Plume/Plume12,Root/ArmorHelmet/ArmorNose,Root/ArmorHelmet/TopDecorationLion/hand1/forearm1,Root/ArmorHelmet/lining,Root/TopDecorationLion/hand1,Root/ArmorHelmet/TopDecorationLion/Tail,Root/ArmorHelmet/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase,Root/TopDecorationLion/hand2,Root/TopDecorationLion/Head,Root/ArmorHelmet/Plume/Plume4,Root/ArmorHelmet/Plume/Plume3,Root/ArmorHelmet/HeadDecCrownBase/CrownBack,Root/ArmorHelmet/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/leg1,Root/ArmorHelmet/Plume/Plume21,Root/ArmorHelmet/FaceCoverR1/WreathCenter/Cube29,Root/TopDecorationLion/leg2,Root/ArmorHelmet/TopDecorationLion/hand2/forearm2,Root/ArmorHelmet/TopDecorationLion/Head,Root/ArmorHelmet/SideDecorationCrown/CrownFront,Root/ArmorHelmet/PlumeP2,Root/ArmorHelmet/TopDecorationLion/Bottomtop,Root/ArmorHelmet/Plume/Plume3/Plume4,Root/TopDecorationLion,Root/ArmorHelmet/TopDecorationLion/Head/Nose,Root/ArmorHelmet/HeadDecCrownBase/CrownFront3,Root/SideDecorationCrown/CrownRight,Root/ArmorHelmet/Plume/Plume21/Plume22,Root/ArmorHelmet/HeadDecCrownBase/CrownFront4,Root/ArmorHelmet/PlumeP1/Plume4,Root/ArmorHelmet/TopDecorationLion/leg1/legdown1,Root/ArmorHelmet/WreathCenter,Root/ArmorHelmet/HeadDecCrownBase/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownFront2,Root/ArmorHelmet/Fin,Root/ArmorHelmet/Hinge1,Root/ArmorHelmet/HeadDecCrownBase/CrownFront,Root/ArmorHelmet/Hinge4,Root/SideDecorationCrown/CrownLeft,Root/ArmorHelmet/HeadDecCrownBase/CrownRight,Root/ArmorHelmet/HeadDecCrownBase/CrownRight2,Root/ArmorHelmet/PlumeBase,Root/SideDecorationCrown/CrownFront4,Root/SideDecorationCrown/CrownFront3,Root/SideDecorationCrown/CrownFront2",
 		"allAngles": true,
 		"entityTextureMode": true
@@ -243,18 +243,18 @@
 				},
 				{
 					"name": "InnerCowl",
-					"from": [ 0.3, -3.2, 0.2 ],
-					"to": [ 6.4, 0.6, 6.1 ],
+					"from": [ 0.3, -3.2, 0.1 ],
+					"to": [ 6.4, 0.6, 6.18 ],
 					"autoUnwrap": false,
 					"uv": [ 53.5, 46.0 ],
-					"rotationOrigin": [ 0.3, -3.2, 0.2 ],
+					"rotationOrigin": [ 0.3, -3.2, 0.1 ],
 					"faces": {
 						"north": { "texture": "#templarhead", "uv": [ 44.5, 51.0, 50.5, 54.5 ] },
-						"east": { "texture": "#templarhead", "uv": [ 48.0, 51.0, 53.5, 54.5 ] },
+						"east": { "texture": "#templarhead", "uv": [ 48.0, 51.0, 54.0, 54.5 ] },
 						"south": { "texture": "#templarhead", "uv": [ 44.5, 49.0, 50.5, 52.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#templarhead", "uv": [ 48.0, 49.0, 53.5, 52.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"up": { "texture": "#templarhead", "uv": [ 47.5, 44.0, 53.5, 49.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"down": { "texture": "#templarhead", "uv": [ 44.5, 44.0, 50.5, 49.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+						"west": { "texture": "#templarhead", "uv": [ 48.0, 49.0, 54.0, 52.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#templarhead", "uv": [ 47.5, 44.0, 53.5, 50.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#templarhead", "uv": [ 44.5, 44.0, 50.5, 50.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					}
 				},
 				{

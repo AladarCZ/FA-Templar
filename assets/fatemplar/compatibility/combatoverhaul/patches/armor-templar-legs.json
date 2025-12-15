@@ -1,0 +1,226 @@
+[
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-templar-legs-heavy-steel-*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.13,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.02,
+              "hungerrate": 0.02
+            }
+          },
+          "fa-templar-legs-heavy-*iron-*": {
+            "Layers": [
+              "Outer"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.13,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.02,
+              "hungerrate": 0.02
+            }
+          },
+          "fa-templar-legs-balance-steel-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 8,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.07,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-legs-balance-*iron-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 7,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.07,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-legs-light-steel-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 3,
+              "SlashingAttack": 6,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.07,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          },
+          "fa-templar-legs-light-*iron-*": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "Zones": [
+              "Legs",
+              "Feet"
+            ],
+            "Resists": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 5,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.07,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.03,
+              "hungerrate": 0.03
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "value": {
+      "fa-templar-legs-heavy-steel-*": 46000,
+      "fa-templar-legs-heavy-meteoriciron-*": 26000,
+      "fa-templar-legs-heavy-iron-*": 19500,
+      "fa-templar-legs-balance-steel-*": 32000,
+      "fa-templar-legs-balance-meteoriciron-*": 16000,
+      "fa-templar-legs-balance-iron-*": 11000,
+      "fa-templar-legs-light-steel-*": 16000,
+      "fa-templar-legs-light-meteoriciron-*": 9000,
+      "fa-templar-legs-light-iron-*": 7500,
+    }
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": {
+      "*": null
+    }
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": {
+      "*": null
+    }
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+    "dependsOn": [
+      {
+        "modId": "combatoverhaul"
+      }
+    ],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": {
+      "*-legs-*": 8
+    }
+  },
+]

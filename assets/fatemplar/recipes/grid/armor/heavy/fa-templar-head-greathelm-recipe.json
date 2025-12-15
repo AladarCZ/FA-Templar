@@ -285,6 +285,111 @@
 		}
 	},
 	{
+		ingredientPattern: "_A_,_B_,GE_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 8
+			},
+			"B": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-steel-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwreath",
+		output: { type: "item", code: "fa-templar-head-greathelmcrista-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_B_,GE_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 8
+			},
+			"B": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-meteoriciron-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwreath",
+		output: { type: "item", code: "fa-templar-head-greathelmcrista-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_B_,GE_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 8
+			},
+			"B": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-templar-head-greathelm-iron-plain"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "templar plate greathelmwreath",
+		output: { type: "item", code: "fa-templar-head-greathelmcrista-iron-{color}"
+		}
+	},
+	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
